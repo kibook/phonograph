@@ -4,16 +4,16 @@ Config = {}
 Config.isRDR = IsDuplicityVersion() and GetConvar("gamename", "gta5") == "rdr3" or not TerraingridActivate
 
 -- Max distance at which inactive media player entities appear
-Config.maxDiscoveryDistance = 30.0
+Config.maxDiscoveryDistance = 400.0
 
 -- Default sound attenuation multiplier when in the same room
-Config.defaultSameRoomAttenuation = 4.0
+Config.defaultSameRoomAttenuation = 0.0
 
 -- Default sound attenuation multiplier when in a different room
-Config.defaultDiffRoomAttenuation = 6.0
+Config.defaultDiffRoomAttenuation = 4.0
 
 -- Default range where active media players are visible/audible
-Config.defaultRange = 30.0
+Config.defaultRange = 80.0
 
 -- Maximum range that players can set
 Config.maxRange = 200.0
@@ -67,28 +67,28 @@ Config.defaultVideoSize = 30
 --
 Config.models = {
 	[`p_phonograph01x`]  = {
-		label = "Phonograph"
+		label = "Phonograph",
+		filter = true,
 	},
 	[`prop_radio_01`] = {
-		label = "Radio"
+		label = "Radio",
+		filter = true,
 	},
 	[`prop_boombox_01`] = {
-		label = "Boombox"
+		label = "Boombox",
+		filter = false,
 	},
 	[`prop_portable_hifi_01`] = {
-		label = "Boombox"
-	},
-	[`prop_ghettoblast_01`] = {
-		label = "Boombox"
-	},
-	[`prop_ghettoblast_02`] = {
-		label = "Boombox"
+		label = "Boombox",
+		filter = false,
 	},
 	[`prop_tapeplayer_01`] = {
-		label = "Tape Player"
+		label = "Tape Player",
+		filter = true,
 	},
 	[`bkr_prop_clubhouse_jukebox_01a`] = {
-		label = "Jukebox"
+		label = "Jukebox",
+		filter = false,
 	},
 	[`bkr_prop_clubhouse_jukebox_01b`] = {
 		label = "Jukebox"
@@ -563,7 +563,7 @@ Config.defaultModel = Config.isRDR and `p_phonograph01x` or `prop_boombox_01`
 -- 	above the entity.
 --
 Config.presets = {
-	--['1'] = {url = 'https://example.com/example.ogg', title = 'Example Preset', filter = true, video = false}
+	['1'] = {url = 'https://live.upbeat.pw//example.ogg', title = 'UpBeat Radio Livestream', filter = false, video = false}
 }
 
 -- These media player entities will be automatically spawned (if they do not
@@ -770,25 +770,30 @@ Config.audioVisualizations = {
 		name = "Blocky Bars"
 	},
 	["cubes"] = {
-		name = "Cubes"
+		name = "Cubes",
+		colors = {"orange", "aqua", "blue", "purple"} -- Order bottom to top. Maximum 4 Colours 
 	},
 	["dualbars"] = {
-		name = "Dual Bars"
+		name = "Dual Bars",
+		colors = {"#ee188c", "#176bed", "#16ec6d", "#5ffd1e", "#dcaa0a"} -- 5 Colours diffRoom, Left To Right
 	},
 	["dualbars blocks"] = {
 		name = "Blocky Dual Bars"
 	},
 	["fireworks"] = {
-		name = "Fireworks"
+		name = "Fireworks",
+		colors = {"#ee188c"} -- Maximum 1 Colour 
 	},
 	["flower"] = {
-		name = "Flower"
+		name = "Flower",
+		colors = {"#ee188c", "#176bed", "#16ec6d", "#5ffd1e", "#dcaa0a"} -- 5 Colours diffRoom, Left To Right
 	},
 	["flower blocks"] = {
 		name = "Blocky Flower"
 	},
 	["orbs"] = {
-		name = "Orbs"
+		name = "Orbs",
+		colors = {"#ee188c","#7611f7"} -- diffRoom 2 Colours 
 	},
 	["ring"] = {
 		name = "Ring"
@@ -803,7 +808,8 @@ Config.audioVisualizations = {
 		name = "Shine"
 	},
 	["shine rings"] = {
-		name = "Shine Rings"
+		name = "Shine Rings",
+		colors = {"#ee188c", "#176bed", "#16ec6d", "#5ffd1e", "#dcaa0a"}
 	},
 	["shockwave"] = {
 		name = "Shockwave"

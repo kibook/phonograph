@@ -22,7 +22,7 @@ pmms (Poodle's MultiMedia System) allows players to play music/video from entiti
 
 - Configure default entities which are spawned and play music/video automatically.
 
-- Audio visualizations via [Wave.js](https://foobar404.github.io/Wave.js/#/).
+- Audio visualizations via [Wave.js](https://foobar404.dev/wave.js/).
 
 # Examples
 

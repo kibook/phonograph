@@ -1,326 +1,860 @@
 StaticEmitters = {
-	{name = "COUNTRYSIDE_ALTRUIST_CULT_01", enabled = true},
-	{name = "dlc_h3_arcade_main_area_music_emitter", enabled = true},
-	{name = "dlc_h3_arcade_planning_room_radio_emitter", enabled = true},
-	{name = "dlc_h3_fm_cashier_radio_01", enabled = true},
-	{name = "dlc_h3_fm_cashier_radio_02", enabled = true},
-	{name = "dlc_h3_fm_cashier_radio_03", enabled = true},
-	{name = "dlc_h3_fm_cashier_radio_04", enabled = true},
-	{name = "dlc_h3_fm_prep_explosives_radio", enabled = true},
-	{name = "dlc_h4_se_mpjo", enabled = true},
-	{name = "dlc_h4_se_safe_codes_penthouse_music", enabled = true},
-	{name = "dlc_h4_se_safe_codes_penthouse_music_entryway", enabled = true},
-	{name = "dlc_h4_se_safe_codes_penthouse_music_lounge", enabled = true},
-	{name = "dlc_h4_se_safe_codes_room_music", enabled = true},
-	{name = "dlc_ie_office_garage_mod_shop_radio_01", enabled = true},
-	{name = "dlc_ie_office_garage_radio_01", enabled = true},
-	{name = "dlc_ie_steal_photo_shoot_pier_radio_emitter", enabled = true},
-	{name = "dlc_ie_steal_photo_shoot_radio_emitter", enabled = true},
-	{name = "dlc_ie_steal_photo_shoot_sonora_desert_radio_emitter", enabled = true},
-	{name = "dlc_ie_steal_photo_shoot_wind_farm_radio_emitter", enabled = true},
-	{name = "dlc_ie_steal_pool_party_default_radio_emitter", enabled = true},
-	{name = "dlc_ie_steal_pool_party_lake_vine_radio_emitter", enabled = true},
-	{name = "dlc_ie_steal_pool_party_milton_rd__radio_emitter", enabled = true},
-	{name = "dlc_ie_steal_tow_mirror_park_radio_emitter", enabled = true},
-	{name = "dlc_ie_steal_tow_sandy_shores_radio_emitter", enabled = true},
-	{name = "dlc_ie_warehouse_radio_01", enabled = true},
-	{name = "dlc_tuner_meet_building_engines", enabled = true},
-	{name = "dlc_tuner_meet_building_music", enabled = true},
-	{name = "LOS_SANTOS_AMMUNATION_GUN_RANGE", enabled = true},
-	{name = "LOS_SANTOS_VANILLA_UNICORN_01_STAGE", enabled = false},
-	{name = "LOS_SANTOS_VANILLA_UNICORN_02_MAIN_ROOM", enabled = false},
-	{name = "LOS_SANTOS_VANILLA_UNICORN_02_MAIN_ROOM", enabled = false},
-	{name = "LOS_SANTOS_VANILLA_UNICORN_03_BACK_ROOM", enabled = false},
-	{name = "MP_ARM_WRESTLING_RADIO_01", enabled = true},
-	{name = "MP_ARM_WRESTLING_RADIO_02", enabled = true},
-	{name = "MP_ARM_WRESTLING_RADIO_03", enabled = true},
-	{name = "MP_ARM_WRESTLING_RADIO_04", enabled = true},
-	{name = "MP_ARM_WRESTLING_RADIO_05", enabled = true},
-	{name = "MP_ARM_WRESTLING_RADIO_06", enabled = true},
-	{name = "MP_ARM_WRESTLING_RADIO_07", enabled = true},
-	{name = "MP_ARM_WRESTLING_RADIO_08", enabled = true},
-	{name = "MP_ARM_WRESTLING_RADIO_09", enabled = true},
-	{name = "MP_ARM_WRESTLING_RADIO_10", enabled = true},
-	{name = "SE_AMMUNATION_CYPRESS_FLATS_GUN_RANGE", enabled = true},
-	{name = "se_ba_dlc_club_exterior", enabled = true},
-	{name = "se_ba_dlc_int_01_bars", enabled = true},
-	{name = "se_ba_dlc_int_01_bogs", enabled = true},
-	{name = "se_ba_dlc_int_01_entry_hall", enabled = true},
-	{name = "se_ba_dlc_int_01_entry_stairs", enabled = true},
-	{name = "se_ba_dlc_int_01_garage", enabled = true},
-	{name = "se_ba_dlc_int_01_main_area", enabled = true},
-	{name = "se_ba_dlc_int_01_main_area_2", enabled = true},
-	{name = "se_ba_dlc_int_01_office", enabled = true},
-	{name = "se_ba_dlc_int_01_rear_l_corridor", enabled = true},
-	{name = "se_ba_int_02_ba_workshop_radio", enabled = true},
-	{name = "se_ba_int_03_ba_hktrk_radio", enabled = true},
-	{name = "se_bkr_biker_dlc_int_01_bar", enabled = true},
-	{name = "se_bkr_biker_dlc_int_01_grg", enabled = true},
-	{name = "se_bkr_biker_dlc_int_01_rec", enabled = true},
-	{name = "se_bkr_biker_dlc_int_02_grg", enabled = true},
-	{name = "se_bkr_biker_dlc_int_02_rec", enabled = true},
-	{name = "SE_COUNTRY_SAWMILL_MAIN_BUILDING", enabled = true},
-	{name = "se_dlc_apt_custom_bedroom", enabled = true},
-	{name = "se_dlc_apt_custom_heist_room", enabled = true},
-	{name = "se_dlc_apt_custom_living_room", enabled = true},
-	{name = "se_dlc_apt_stilts_a_bedroom", enabled = true},
-	{name = "se_dlc_apt_stilts_a_heist_room", enabled = true},
-	{name = "se_dlc_apt_stilts_a_living_room", enabled = true},
-	{name = "se_dlc_apt_stilts_b_bedroom", enabled = true},
-	{name = "se_dlc_apt_stilts_b_heist_room", enabled = true},
-	{name = "se_dlc_apt_stilts_b_living_room", enabled = true},
-	{name = "se_dlc_apt_yacht_bar", enabled = true},
-	{name = "se_dlc_apt_yacht_bedroom", enabled = true},
-	{name = "se_dlc_apt_yacht_bedroom_02", enabled = true},
-	{name = "se_dlc_apt_yacht_bedroom_03", enabled = true},
-	{name = "se_dlc_apt_yacht_exterior_01", enabled = true},
-	{name = "se_dlc_apt_yacht_exterior_02", enabled = true},
-	{name = "se_dlc_apt_yacht_exterior_03", enabled = true},
-	{name = "se_dlc_apt_yacht_exterior_04", enabled = true},
-	{name = "se_dlc_aw_arena_construction_01", enabled = false},
-	{name = "se_dlc_aw_arena_crowd_background_main", enabled = false},
-	{name = "se_dlc_aw_arena_crowd_exterior_lobby", enabled = false},
-	{name = "se_dlc_aw_arena_crowd_interior_lobby", enabled = false},
-	{name = "se_dlc_aw_xs_arena_vip_radio", enabled = false},
-	{name = "se_dlc_aw_xs_x18_int_mod_garage_office_theme", enabled = true},
-	{name = "se_dlc_aw_xs_x18_int_mod_garage_radio", enabled = false},
-	{name = "se_dlc_aw_xs_x18_int_mod2_garage_radio", enabled = false},
-	{name = "se_dlc_biker_cash_warehouse_radio", enabled = true},
-	{name = "se_dlc_biker_crack_warehouse_radio", enabled = true},
-	{name = "se_dlc_biker_fakeid_warehouse_radio", enabled = true},
-	{name = "se_dlc_biker_lost_mc_clubhouse_01", enabled = true},
-	{name = "se_dlc_biker_lost_mc_clubhouse_02", enabled = true},
-	{name = "se_dlc_biker_meth_warehouse_radio", enabled = true},
-	{name = "se_dlc_biker_tequilala_exterior_emitter", enabled = true},
-	{name = "se_dlc_biker_vagos_clubhouse_01", enabled = true},
-	{name = "se_dlc_biker_vagos_clubhouse_02", enabled = true},
-	{name = "se_dlc_biker_weed_warehouse_radio", enabled = true},
-	{name = "se_dlc_btl_yacht_exterior_01", enabled = true},
-	{name = "se_dlc_fixer_data_leak_mansion_speaker_01", enabled = true},
-	{name = "se_dlc_fixer_data_leak_mansion_speaker_02", enabled = true},
-	{name = "se_dlc_fixer_data_leak_mansion_speaker_03", enabled = true},
-	{name = "se_dlc_fixer_data_leak_mansion_speaker_04", enabled = true},
-	{name = "se_dlc_fixer_data_leak_mansion_speaker_05", enabled = true},
-	{name = "se_dlc_fixer_data_leak_mansion_speaker_06", enabled = true},
-	{name = "se_dlc_fixer_data_leak_mansion_speaker_07", enabled = true},
-	{name = "se_dlc_fixer_data_leak_mansion_speaker_08", enabled = true},
-	{name = "se_dlc_fixer_data_leak_mansion_speaker_09", enabled = true},
-	{name = "se_dlc_fixer_data_leak_mansion_speaker_10", enabled = true},
-	{name = "se_dlc_fixer_investigation_way_in_music_01", enabled = true},
-	{name = "se_dlc_gr_bunker_radio_01", enabled = true},
-	{name = "se_dlc_gr_bunker_radio_02", enabled = true},
-	{name = "se_dlc_gr_bunker_radio_03", enabled = true},
-	{name = "se_dlc_gr_bunker_radio_04", enabled = true},
-	{name = "se_dlc_gr_bunker_radio_05", enabled = true},
-	{name = "se_dlc_gr_bunker_radio_06", enabled = true},
-	{name = "se_dlc_gr_bunker_radio_07", enabled = true},
-	{name = "se_dlc_gr_moc_radio_01", enabled = true},
-	{name = "se_dlc_hei4_island_beach_party_music_new_01_left", enabled = true},
-	{name = "se_dlc_hei4_island_beach_party_music_new_02_right", enabled = true},
-	{name = "se_dlc_hei4_island_beach_party_music_new_03_reverb", enabled = true},
-	{name = "se_dlc_hei4_island_beach_party_music_new_04_reverb", enabled = true},
-	{name = "se_dlc_sec_weed_warehouse_radio", enabled = true},
-	{name = "se_dlc_sm_hangar_radio_living_quarters_01", enabled = true},
-	{name = "se_dlc_sm_hangar_radio_living_quarters_02", enabled = true},
-	{name = "se_dlc_sm_hangar_radio_mechanic", enabled = true},
-	{name = "se_dlc_sm_hangar_radio_office_01", enabled = true},
-	{name = "se_dlc_sm_hangar_radio_office_02", enabled = true},
-	{name = "se_dlc_sm_hangar_radio_office_03", enabled = true},
-	{name = "se_dlc_sm_hangar_radio_office_04", enabled = true},
-	{name = "se_dmod_trailer_radio", enabled = true},
-	{name = "se_ex_int_office_01a_radio_01", enabled = true},
-	{name = "se_ex_int_office_01b_radio_01", enabled = true},
-	{name = "se_ex_int_office_01c_radio_01", enabled = true},
-	{name = "se_ex_int_office_02a_radio_01", enabled = true},
-	{name = "se_ex_int_office_02b_radio_01", enabled = true},
-	{name = "se_ex_int_office_02c_radio_01", enabled = true},
-	{name = "se_ex_int_office_03a_radio_01", enabled = true},
-	{name = "se_ex_int_office_03b_radio_01", enabled = true},
-	{name = "se_ex_int_office_03c_radio_01", enabled = true},
-	{name = "se_exec_wh_l_radio", enabled = true},
-	{name = "se_exec_wh_m_radio", enabled = true},
-	{name = "se_exec_wh_s_radio", enabled = true},
-	{name = "SE_FAMILY_2_BOAT_RADIO", enabled = true},
-	{name = "SE_FRANKLIN_AUNT_HOUSE_RADIO_01", enabled = true},
-	{name = "SE_FRANKLIN_HILLS_HOUSE_RADIO_01", enabled = true},
-	{name = "se_h4_dlc_int_02_h4_bogs", enabled = true},
-	{name = "se_h4_dlc_int_02_h4_entrance_doorway", enabled = true},
-	{name = "se_h4_dlc_int_02_h4_lobby", enabled = true},
-	{name = "se_h4_dlc_int_02_h4_main_bar", enabled = true},
-	{name = "se_h4_dlc_int_02_h4_main_front_01", enabled = true},
-	{name = "se_h4_dlc_int_02_h4_main_front_02", enabled = true},
-	{name = "se_h4_dlc_int_02_h4_main_room_cutscenes", enabled = true},
-	{name = "se_hei4_int_sub_mess_radio", enabled = true},
-	{name = "se_hei4_int_sub_stream", enabled = true},
-	{name = "SE_LOS_SANTOS_EPSILONISM_BUILDING_01", enabled = true},
-	{name = "SE_LR_Car_Park_Radio_01", enabled = true},
-	{name = "SE_LS_DOCKS_RADIO_01", enabled = true},
-	{name = "SE_LS_DOCKS_RADIO_02", enabled = true},
-	{name = "SE_LS_DOCKS_RADIO_03", enabled = true},
-	{name = "SE_LS_DOCKS_RADIO_04", enabled = true},
-	{name = "SE_LS_DOCKS_RADIO_05", enabled = true},
-	{name = "SE_LS_DOCKS_RADIO_06", enabled = true},
-	{name = "SE_LS_DOCKS_RADIO_07", enabled = true},
-	{name = "SE_LS_DOCKS_RADIO_08", enabled = true},
-	{name = "SE_MICHAELS_HOUSE_RADIO", enabled = true},
-	{name = "se_mp_ap_rad_v_apart_midspaz_lounge", enabled = true},
-	{name = "se_mp_ap_rad_v_studio_lo_living", enabled = true},
-	{name = "se_mp_apt_1_1", enabled = true},
-	{name = "se_mp_apt_1_2", enabled = true},
-	{name = "se_mp_apt_1_3", enabled = true},
-	{name = "se_mp_apt_10_1", enabled = true},
-	{name = "se_mp_apt_10_2", enabled = true},
-	{name = "se_mp_apt_10_3", enabled = true},
-	{name = "se_mp_apt_11_1", enabled = true},
-	{name = "se_mp_apt_11_2", enabled = true},
-	{name = "se_mp_apt_11_3", enabled = true},
-	{name = "se_mp_apt_12_1", enabled = true},
-	{name = "se_mp_apt_12_2", enabled = true},
-	{name = "se_mp_apt_12_3", enabled = true},
-	{name = "se_mp_apt_13_1", enabled = true},
-	{name = "se_mp_apt_13_2", enabled = true},
-	{name = "se_mp_apt_13_3", enabled = true},
-	{name = "se_mp_apt_14_1", enabled = true},
-	{name = "se_mp_apt_14_2", enabled = true},
-	{name = "se_mp_apt_14_3", enabled = true},
-	{name = "se_mp_apt_15_1", enabled = true},
-	{name = "se_mp_apt_15_2", enabled = true},
-	{name = "se_mp_apt_15_3", enabled = true},
-	{name = "se_mp_apt_16_1", enabled = true},
-	{name = "se_mp_apt_16_2", enabled = true},
-	{name = "se_mp_apt_16_3", enabled = true},
-	{name = "se_mp_apt_17_1", enabled = true},
-	{name = "se_mp_apt_17_2", enabled = true},
-	{name = "se_mp_apt_17_3", enabled = true},
-	{name = "se_mp_apt_2_1", enabled = true},
-	{name = "se_mp_apt_2_2", enabled = true},
-	{name = "se_mp_apt_2_3", enabled = true},
-	{name = "se_mp_apt_3_1", enabled = true},
-	{name = "se_mp_apt_3_2", enabled = true},
-	{name = "se_mp_apt_3_3", enabled = true},
-	{name = "se_mp_apt_4_1", enabled = true},
-	{name = "se_mp_apt_4_2", enabled = true},
-	{name = "se_mp_apt_4_3", enabled = true},
-	{name = "se_mp_apt_5_1", enabled = true},
-	{name = "se_mp_apt_5_2", enabled = true},
-	{name = "se_mp_apt_5_3", enabled = true},
-	{name = "se_mp_apt_6_1", enabled = true},
-	{name = "se_mp_apt_6_2", enabled = true},
-	{name = "se_mp_apt_6_3", enabled = true},
-	{name = "se_mp_apt_7_1", enabled = true},
-	{name = "se_mp_apt_7_2", enabled = true},
-	{name = "se_mp_apt_7_3", enabled = true},
-	{name = "se_mp_apt_8_1", enabled = true},
-	{name = "se_mp_apt_8_2", enabled = true},
-	{name = "se_mp_apt_8_3", enabled = true},
-	{name = "se_mp_apt_9_1", enabled = true},
-	{name = "se_mp_apt_9_2", enabled = true},
-	{name = "se_mp_apt_9_3", enabled = true},
-	{name = "se_mp_apt_new_1_1", enabled = true},
-	{name = "se_mp_apt_new_1_2", enabled = true},
-	{name = "se_mp_apt_new_1_3", enabled = true},
-	{name = "se_mp_apt_new_2_1", enabled = true},
-	{name = "se_mp_apt_new_2_2", enabled = true},
-	{name = "se_mp_apt_new_2_3", enabled = true},
-	{name = "se_mp_apt_new_3_1", enabled = true},
-	{name = "se_mp_apt_new_3_2", enabled = true},
-	{name = "se_mp_apt_new_3_3", enabled = true},
-	{name = "se_mp_apt_new_4_1", enabled = true},
-	{name = "se_mp_apt_new_4_2", enabled = true},
-	{name = "se_mp_apt_new_4_3", enabled = true},
-	{name = "se_mp_apt_new_5_1", enabled = true},
-	{name = "se_mp_apt_new_5_2", enabled = true},
-	{name = "se_mp_apt_new_5_3", enabled = true},
-	{name = "SE_MP_GARAGE_L_RADIO", enabled = true},
-	{name = "se_mp_garage_m_radio", enabled = true},
-	{name = "SE_MP_GARAGE_S_RADIO", enabled = true},
-	{name = "SE_RESTAURANTS_SUNSET_13", enabled = true},
-	{name = "SE_Script_Placed_Prop_Emitter_Boombox", enabled = true},
-	{name = "se_sf_dlc_garage_sec_room_f1_01", enabled = true},
-	{name = "se_sf_dlc_garage_sec_room_f2_01", enabled = true},
-	{name = "se_sf_dlc_garage_sec_room_gf_01", enabled = true},
-	{name = "se_sf_dlc_garage_sec_room_stairs_01", enabled = true},
-	{name = "se_sf_dlc_office_sec_apartment_01", enabled = true},
-	{name = "se_sf_dlc_office_sec_backstairs_01", enabled = true},
-	{name = "se_sf_dlc_office_sec_franklin_office", enabled = true},
-	{name = "se_sf_dlc_office_sec_hacker_01", enabled = true},
-	{name = "se_sf_dlc_office_sec_main_01", enabled = true},
-	{name = "se_sf_dlc_office_sec_player_office", enabled = true},
-	{name = "se_sf_dlc_studio_sec_lobby_01", enabled = true},
-	{name = "se_sf_dlc_studio_sec_studio_01", enabled = true},
-	{name = "se_sf_dlc_studio_sec_studio_02", enabled = true},
-	{name = "se_sf_dlc_studio_sec_writers_01", enabled = true},
-	{name = "se_supermod_01", enabled = true},
-	{name = "se_tr_tuner_car_meet_main_rm_vehicle_noise_01", enabled = true},
-	{name = "se_tr_tuner_car_meet_main_rm_vehicle_noise_02", enabled = true},
-	{name = "se_tr_tuner_car_meet_meet_rm_music_00", enabled = true},
-	{name = "se_tr_tuner_car_meet_meet_rm_music_01", enabled = true},
-	{name = "se_tr_tuner_car_meet_meet_rm_music_02", enabled = true},
-	{name = "se_tr_tuner_car_meet_meet_rm_music_03", enabled = true},
-	{name = "se_tr_tuner_car_meet_meet_rm_music_04", enabled = true},
-	{name = "se_tr_tuner_car_meet_meet_rm_music_05", enabled = true},
-	{name = "se_tr_tuner_car_meet_meet_rm_music_takeover", enabled = true},
-	{name = "se_tr_tuner_car_meet_sandbox_music_01", enabled = true},
-	{name = "se_tr_tuner_car_meet_sandbox_music_02", enabled = true},
-	{name = "se_tr_tuner_car_meet_sandbox_viewer_area_music_01", enabled = true},
-	{name = "se_tr_tuner_car_meet_sandbox_viewer_area_music_01_b", enabled = true},
-	{name = "se_tr_tuner_car_meet_sandbox_viewer_area_music_02", enabled = true},
-	{name = "se_tr_tuner_car_meet_sandbox_viewer_area_music_02_b", enabled = true},
-	{name = "se_tr_tuner_mod_garage_radio_01", enabled = true},
-	{name = "SE_TREVOR_TRAILER_RADIO_01", enabled = true},
-	{name = "se_vw_dlc_casino_apart_apart_arcade_room_radio", enabled = true},
-	{name = "se_vw_dlc_casino_apart_apart_default_room_radio", enabled = true},
-	{name = "se_vw_dlc_casino_apart_apart_lounge_room_radio", enabled = true},
-	{name = "se_vw_dlc_casino_apart_apart_party_music_01", enabled = true},
-	{name = "se_vw_dlc_casino_apart_apart_party_music_02", enabled = true},
-	{name = "se_vw_dlc_casino_apart_apart_party_music_03", enabled = true},
-	{name = "se_vw_dlc_casino_apart_apart_spa_room_water", enabled = true},
-	{name = "se_vw_dlc_casino_exterior_main_entrance", enabled = true},
-	{name = "se_vw_dlc_casino_exterior_terrace_01", enabled = true},
-	{name = "se_vw_dlc_casino_exterior_terrace_02", enabled = true},
-	{name = "se_vw_dlc_casino_exterior_terrace_03", enabled = true},
-	{name = "se_vw_dlc_casino_exterior_terrace_bar", enabled = true},
-	{name = "se_vw_dlc_casino_main_rm_bettingroom_main_floor_radio", enabled = true},
-	{name = "se_vw_dlc_casino_main_rm_bettingroom_radio", enabled = true},
-	{name = "se_vw_dlc_casino_main_rm_gamingfloor_01_bar_radio", enabled = true},
-	{name = "se_vw_dlc_casino_main_rm_gamingfloor_01_slots_radio", enabled = true},
-	{name = "se_vw_dlc_casino_main_rm_gamingfloor_02_slots_radio", enabled = true},
-	{name = "se_vw_dlc_casino_main_rm_gamingfloor_03_slots_radio", enabled = true},
-	{name = "se_vw_dlc_casino_main_rm_lounge_01_radio", enabled = true},
-	{name = "se_vw_dlc_casino_main_rm_lounge_02_radio", enabled = true},
-	{name = "se_vw_dlc_casino_main_rm_reception_radio", enabled = true},
-	{name = "se_vw_dlc_casino_main_rm_shop_radio", enabled = true},
-	{name = "se_vw_dlc_casino_main_rm_toilet_01_radio", enabled = true},
-	{name = "se_vw_dlc_casino_main_rm_toilet_02_radio", enabled = true},
-	{name = "se_xm_int_01_avngr_radio", enabled = true},
-	{name = "se_xm_int_02_bedroom_radio", enabled = true},
-	{name = "se_xm_int_02_lounge_radio", enabled = true},
-	{name = "se_xm_x17dlc_int_sub_stream", enabled = true},
-	{name = "se_mp_garage_m_radio", enabled = true},
-	{name = "se_xm3_dlc_int_01_xm3_radioemitter", enabled = true},
-	{name = "se_xm_int_01_avngr_radio", enabled = true},
-	{name = "se_xm3_dlc_int_02_xm3_radioemitter", enabled = true},
-	{name = "se_xm_int_02_lounge_radio", enabled = true},
-	{name = "se_xm3_dlc_int_03_xm3_radioemitter_office", enabled = true},
-	{name = "se_xm3_dlc_int_03_xm3_radioemitter_main_area", enabled = true},
-	{name = "se_xm_x17dlc_int_sub_stream", enabled = true},
-	{name = "se_xm3_dlc_lab_radioemitter_exterior", enabled = true},
-	{name = "se_mp_garage_m_radio", enabled = true},
-	{name = "se_xm_int_02_lounge_radio", enabled = true},
-	{name = "se_xm_int_02_bedroom_radio", enabled = true},
-	{name = "se_xm_x17dlc_int_sub_stream", enabled = true},
-	{name = "se_xm_x17dlc_int_sub_stream", enabled = true},
-	{name = "dlc_h3_arcade_main_area_music_emitter", enabled = true},
-	{name = "dlc_h3_arcade_planning_room_radio_emitter", enabled = true},
-	{name = "dlc_h3_fm_prep_explosives_radio", enabled = true},
-	{name = "dlc_h3_fm_cashier_radio_01", enabled = true},
-	{name = "dlc_h3_fm_cashier_radio_02", enabled = true},
-	{name = "dlc_h3_fm_cashier_radio_03", enabled = true},
-	{name = "dlc_h3_fm_cashier_radio_04", enabled = true},
-	{name = "dlc_h3_fm_cashier_radio_04", enabled = true},
-	{name = "TREVOR_APARTMENT_RADIO", enabled = true},
-	{name = "TREVOR1_TRAILER_PARK_MAIN_STAGE_RADIO", enabled = true},
-	{name = "TREVOR1_TRAILER_PARK_MAIN_TRAILER_RADIO_01", enabled = true},
-	{name = "TREVOR1_TRAILER_PARK_MAIN_TRAILER_RADIO_02", enabled = true},
-	{name = "TREVOR1_TRAILER_PARK_MAIN_TRAILER_RADIO_03", enabled = true},
+{"name": "se_mp_apt_11_3", "enabled": true}
+{"name": "se_mp_apt_16_2", "enabled": true}
+{"name": "se_mp_apt_7_2", "enabled": true}
+{"name": "se_mp_apt_9_1", "enabled": true}
+{"name": "se_mp_apt_6_2", "enabled": true}
+{"name": "se_mp_apt_14_2", "enabled": true}
+{"name": "se_mp_apt_14_1", "enabled": true}
+{"name": "se_mp_apt_new_5_2", "enabled": true}
+{"name": "se_mp_apt_13_2", "enabled": true}
+{"name": "se_mp_apt_new_4_3", "enabled": true}
+{"name": "se_mp_apt_8_1", "enabled": true}
+{"name": "se_mp_apt_4_1", "enabled": true}
+{"name": "se_mp_apt_10_1", "enabled": true}
+{"name": "se_mp_apt_10_3", "enabled": true}
+{"name": "se_mp_apt_17_3", "enabled": true}
+{"name": "se_mp_apt_new_3_2", "enabled": true}
+{"name": "se_mp_apt_new_1_3", "enabled": true}
+{"name": "se_mp_apt_1_2", "enabled": true}
+{"name": "se_mp_apt_15_2", "enabled": true}
+{"name": "se_mp_apt_15_3", "enabled": true}
+{"name": "se_mp_apt_new_4_1", "enabled": true}
+{"name": "hash_b8c81654_auzhtjr_collision", "enabled": true}
+{"name": "se_mp_apt_16_3", "enabled": true}
+{"name": "se_mp_apt_5_3", "enabled": true}
+{"name": "se_mp_apt_12_3", "enabled": true}
+{"name": "se_mp_apt_14_3", "enabled": true}
+{"name": "se_mp_apt_2_2", "enabled": true}
+{"name": "se_mp_apt_11_1", "enabled": true}
+{"name": "se_mp_apt_13_3", "enabled": true}
+{"name": "se_mp_apt_3_1", "enabled": true}
+{"name": "se_mp_apt_10_2", "enabled": true}
+{"name": "se_mp_apt_new_1_1", "enabled": true}
+{"name": "se_mp_apt_2_1", "enabled": true}
+{"name": "SE_MP_GARAGE_L_RADIO", "enabled": true}
+{"name": "se_mp_apt_15_1", "enabled": true}
+{"name": "se_mp_apt_new_2_1", "enabled": true}
+{"name": "se_mp_apt_9_2", "enabled": true}
+{"name": "SE_LR_Car_Park_Radio_01", "enabled": true}
+{"name": "se_mp_apt_12_2", "enabled": true}
+{"name": "se_mp_apt_7_1", "enabled": true}
+{"name": "se_mp_apt_7_3", "enabled": true}
+{"name": "se_mp_apt_6_3", "enabled": true}
+{"name": "se_mp_apt_new_2_2", "enabled": true}
+{"name": "se_mp_apt_11_2", "enabled": true}
+{"name": "se_mp_apt_6_1", "enabled": true}
+{"name": "se_mp_apt_13_1", "enabled": true}
+{"name": "se_mp_apt_5_2", "enabled": true}
+{"name": "se_mp_apt_new_5_1", "enabled": true}
+{"name": "se_mp_apt_4_2", "enabled": true}
+{"name": "se_mp_apt_new_3_1", "enabled": true}
+{"name": "se_mp_apt_16_1", "enabled": true}
+{"name": "se_mp_apt_17_1", "enabled": true}
+{"name": "se_mp_apt_8_2", "enabled": true}
+{"name": "se_mp_apt_17_2", "enabled": true}
+{"name": "se_mp_apt_new_5_3", "enabled": true}
+{"name": "se_mp_apt_new_3_3", "enabled": true}
+{"name": "SE_Script_Placed_Prop_Emitter_Boombox", "enabled": true}
+{"name": "se_mp_apt_9_3", "enabled": true}
+{"name": "se_mp_ap_rad_v_apart_midspaz_lounge", "enabled": true}
+{"name": "se_mp_apt_3_3", "enabled": true}
+{"name": "se_mp_apt_new_4_2", "enabled": true}
+{"name": "se_mp_apt_1_1", "enabled": true}
+{"name": "se_mp_apt_5_1", "enabled": true}
+{"name": "hash_74cf6ed7_finkmwz_collision", "enabled": true}
+{"name": "se_mp_apt_2_3", "enabled": true}
+{"name": "hash_07cbbcd9_ozdsrp_collision", "enabled": true}
+{"name": "se_mp_apt_new_1_2", "enabled": true}
+{"name": "se_mp_apt_4_3", "enabled": true}
+{"name": "se_mp_apt_new_2_3", "enabled": true}
+{"name": "se_mp_apt_8_3", "enabled": true}
+{"name": "se_mp_ap_rad_v_studio_lo_living", "enabled": true}
+{"name": "se_mp_apt_1_3", "enabled": true}
+{"name": "se_mp_apt_12_1", "enabled": true}
+{"name": "se_mp_apt_3_2", "enabled": true}
+{"name": "se_mp_apt_11_3", "enabled": true}
+{"name": "se_mp_apt_16_2", "enabled": true}
+{"name": "se_mp_apt_7_2", "enabled": true}
+{"name": "se_mp_apt_9_1", "enabled": true}
+{"name": "se_mp_apt_6_2", "enabled": true}
+{"name": "se_mp_apt_14_2", "enabled": true}
+{"name": "se_mp_apt_14_1", "enabled": true}
+{"name": "se_mp_apt_new_5_2", "enabled": true}
+{"name": "se_mp_apt_13_2", "enabled": true}
+{"name": "se_mp_apt_new_4_3", "enabled": true}
+{"name": "se_mp_apt_8_1", "enabled": true}
+{"name": "se_mp_apt_4_1", "enabled": true}
+{"name": "se_mp_apt_10_1", "enabled": true}
+{"name": "se_mp_apt_10_3", "enabled": true}
+{"name": "se_mp_apt_17_3", "enabled": true}
+{"name": "se_mp_apt_new_3_2", "enabled": true}
+{"name": "se_mp_apt_new_1_3", "enabled": true}
+{"name": "se_mp_apt_1_2", "enabled": true}
+{"name": "se_mp_apt_15_2", "enabled": true}
+{"name": "se_mp_apt_15_3", "enabled": true}
+{"name": "se_mp_apt_new_4_1", "enabled": true}
+{"name": "se_mp_apt_16_3", "enabled": true}
+{"name": "se_mp_apt_5_3", "enabled": true}
+{"name": "se_mp_apt_12_3", "enabled": true}
+{"name": "se_mp_apt_14_3", "enabled": true}
+{"name": "se_mp_apt_2_2", "enabled": true}
+{"name": "se_mp_apt_11_1", "enabled": true}
+{"name": "se_mp_apt_13_3", "enabled": true}
+{"name": "se_mp_apt_3_1", "enabled": true}
+{"name": "se_mp_apt_10_2", "enabled": true}
+{"name": "se_mp_apt_new_1_1", "enabled": true}
+{"name": "se_mp_apt_2_1", "enabled": true}
+{"name": "SE_MP_GARAGE_L_RADIO", "enabled": true}
+{"name": "se_mp_apt_15_1", "enabled": true}
+{"name": "se_mp_apt_new_2_1", "enabled": true}
+{"name": "se_mp_apt_9_2", "enabled": true}
+{"name": "se_mp_apt_12_2", "enabled": true}
+{"name": "se_mp_apt_7_1", "enabled": true}
+{"name": "se_mp_apt_7_3", "enabled": true}
+{"name": "se_mp_apt_6_3", "enabled": true}
+{"name": "se_mp_apt_new_2_2", "enabled": true}
+{"name": "se_mp_apt_11_2", "enabled": true}
+{"name": "se_mp_apt_6_1", "enabled": true}
+{"name": "se_mp_apt_13_1", "enabled": true}
+{"name": "se_mp_apt_5_2", "enabled": true}
+{"name": "se_mp_apt_new_5_1", "enabled": true}
+{"name": "se_mp_apt_4_2", "enabled": true}
+{"name": "se_mp_apt_new_3_1", "enabled": true}
+{"name": "se_mp_apt_16_1", "enabled": true}
+{"name": "se_mp_apt_17_1", "enabled": true}
+{"name": "se_mp_apt_8_2", "enabled": true}
+{"name": "se_mp_apt_17_2", "enabled": true}
+{"name": "se_mp_apt_new_5_3", "enabled": true}
+{"name": "se_mp_apt_new_3_3", "enabled": true}
+{"name": "se_mp_apt_9_3", "enabled": true}
+{"name": "se_mp_ap_rad_v_apart_midspaz_lounge", "enabled": true}
+{"name": "se_mp_apt_3_3", "enabled": true}
+{"name": "se_mp_apt_new_4_2", "enabled": true}
+{"name": "se_mp_apt_1_1", "enabled": true}
+{"name": "se_mp_apt_5_1", "enabled": true}
+{"name": "se_mp_apt_2_3", "enabled": true}
+{"name": "hash_07cbbcd9_ozdsrp_collision", "enabled": true}
+{"name": "se_mp_apt_new_1_2", "enabled": true}
+{"name": "se_mp_apt_4_3", "enabled": true}
+{"name": "se_mp_apt_new_2_3", "enabled": true}
+{"name": "se_mp_apt_8_3", "enabled": true}
+{"name": "se_mp_ap_rad_v_studio_lo_living", "enabled": true}
+{"name": "se_mp_apt_1_3", "enabled": true}
+{"name": "se_mp_apt_12_1", "enabled": true}
+{"name": "se_mp_apt_3_2", "enabled": true}
+{"name": "ambient_tv_30", "enabled": true}
+{"name": "hash_b3951400_wudquyca_collision", "enabled": true}
+{"name": "se_restaurants_downtown_02", "enabled": true}
+{"name": "hash_019b6701_epbkoyv_collision", "enabled": true}
+{"name": "fib_05_biotech_lab_alarms_04", "enabled": true}
+{"name": "prison_alarms_tower_06", "enabled": true}
+{"name": "ambient_tv_03", "enabled": true}
+{"name": "hash_f594aa04_xlwgvbg_collision", "enabled": true}
+{"name": "se_restaurants_venice_33", "enabled": true}
+{"name": "ambient_tv_25", "enabled": true}
+{"name": "hash_25963b06_dlslqcj_collision", "enabled": true}
+{"name": "hash_e61c9906_lmqttus_collision", "enabled": true}
+{"name": "hash_1226a709_afisrerg_collision", "enabled": true}
+{"name": "hash_7710aa0a_mauuktda_collision", "enabled": true}
+{"name": "ambient_tv_60", "enabled": true}
+{"name": "prison_alarms_tower_10", "enabled": true}
+{"name": "hash_34960c0b_jwurdtga_collision", "enabled": true}
+{"name": "ambient_tv_10", "enabled": true}
+{"name": "hash_3257690d_patlhje_collision", "enabled": true}
+{"name": "SE_LS_DOCKS_RADIO_03", "enabled": true}
+{"name": "paleto_bay_score_alarm_02", "enabled": true}
+{"name": "se_restaurants_venice_27", "enabled": true}
+{"name": "paleto_bay_score_alarm_cf_04", "enabled": true}
+{"name": "ambient_tv_12", "enabled": true}
+{"name": "agency_heist_fib_tower_alarms_door_buzz_06", "enabled": true}
+{"name": "hash_458bbe13_juinuxn_collision", "enabled": true}
+{"name": "hash_0cf23314_trrnmff_collision", "enabled": true}
+{"name": "paleto_bay_score_alarm_cf_02", "enabled": true}
+{"name": "ambient_tv_48", "enabled": true}
+{"name": "port_of_ls_heist_fort_zancudo_alarms_04", "enabled": true}
+{"name": "agency_heist_fib_tower_alarms_bell_01", "enabled": true}
+{"name": "hash_2dcb2116_mkibklz_collision", "enabled": true}
+{"name": "hash_9ce6c618_aomtbth_collision", "enabled": true}
+{"name": "hash_0940c719_egdygbr_collision", "enabled": true}
+{"name": "se_restaurants_hollywood_28", "enabled": true}
+{"name": "se_restaurants_venice_46", "enabled": true}
+{"name": "hash_41e9371b_dvtcvvo_collision", "enabled": true}
+{"name": "ambient_tv_51", "enabled": true}
+{"name": "agency_heist_fib_tower_alarms_bell_03", "enabled": true}
+{"name": "hash_608b801c_aoeicwb_collision", "enabled": true}
+{"name": "hash_81fad01d_gjtdhbf_collision", "enabled": true}
+{"name": "hash_2d0c6c1e_zonqojk_collision", "enabled": true}
+{"name": "se_restaurants_santamonica_09", "enabled": true}
+{"name": "se_restaurants_santamonica_06", "enabled": true}
+{"name": "ambient_tv_46", "enabled": true}
+{"name": "hash_ab4c671f_fklietd_collision", "enabled": true}
+{"name": "hash_df53a11f_aqlivhc_collision", "enabled": true}
+{"name": "prison_alarms_tower_09", "enabled": true}
+{"name": "ambient_tv_20", "enabled": true}
+{"name": "hash_0ce27621_amljprb_collision", "enabled": true}
+{"name": "ambient_tv_19", "enabled": true}
+{"name": "hash_5f06ec21_eawwghv_collision", "enabled": true}
+{"name": "se_restaurants_venice_58", "enabled": true}
+{"name": "ambient_tv_66", "enabled": true}
+{"name": "hash_7d96dd23_tjpzznd_collision", "enabled": true}
+{"name": "ambient_tv_44", "enabled": true}
+{"name": "hash_28682d24_xrtqlrm_collision", "enabled": true}
+{"name": "hash_b5796624_dsrljju_collision", "enabled": true}
+{"name": "hash_b801d624_gaiikcj_collision", "enabled": true}
+{"name": "hash_edde6124_ekplybv_collision", "enabled": true}
+{"name": "hash_f6758124_bectuif_collision", "enabled": true}
+{"name": "fib_05_biotech_lab_alarms_02", "enabled": true}
+{"name": "hash_4bece727_usgzgza_collision", "enabled": true}
+{"name": "prison_alarms_tower_08", "enabled": true}
+{"name": "agency_heist_fib_tower_alarms_bell_08", "enabled": true}
+{"name": "hash_e2ed8e27_bsqqjnt_collision", "enabled": true}
+{"name": "hash_616aa929_tlrawge_collision", "enabled": true}
+{"name": "hash_c6c8c929_bjnlvtm_collision", "enabled": true}
+{"name": "se_ammunation_paleto", "enabled": true}
+{"name": "ambient_tv_26", "enabled": true}
+{"name": "agency_heist_fib_tower_alarms_door_buzz_01", "enabled": true}
+{"name": "hash_7203b82b_idaqmjn_collision", "enabled": true}
+{"name": "hash_7d74dd2b_wbmoggf_collision", "enabled": true}
+{"name": "ambient_tv_41", "enabled": true}
+{"name": "prison_alarms_tower_01", "enabled": true}
+{"name": "big_score_heist_vault_alarms_03_cage", "enabled": true}
+{"name": "hash_a33ac22f_bhkjvmg_collision", "enabled": true}
+{"name": "hash_5128c530_jxenwkd_collision", "enabled": true}
+{"name": "hash_5cf47030_ztsfda_collision", "enabled": true}
+{"name": "port_of_ls_heist_fort_zancudo_alarms_gate_2", "enabled": true}
+{"name": "hash_93a46331_czyxyde_collision", "enabled": true}
+{"name": "hash_2f233732_gmgxelf_collision", "enabled": true}
+{"name": "fib_05_biotech_lab_alarms_09", "enabled": true}
+{"name": "hash_b60a9a33_enqjgrx_collision", "enabled": true}
+{"name": "se_restaurants_santamonica_10", "enabled": true}
+{"name": "ambient_tv_57", "enabled": true}
+{"name": "hash_76423035_bxnvhbt_collision", "enabled": true}
+{"name": "se_restaurants_venice_42", "enabled": true}
+{"name": "TREVOR1_TRAILER_PARK_MAIN_TRAILER_RADIO_01", "enabled": true}
+{"name": "hash_d1fa9836_plhmebda_collision", "enabled": true}
+{"name": "HOUSE_PARTY_POOLSIDE_GHETTO_BLASTER_01", "enabled": true}
+{"name": "ambient_tv_32", "enabled": true}
+{"name": "hash_d170e139_nhchzai_collision", "enabled": true}
+{"name": "se_restaurants_industrial_05", "enabled": true}
+{"name": "hash_9265073b_alqzysiz_collision", "enabled": true}
+{"name": "hash_c75f063b_dzgwnwz_collision", "enabled": true}
+{"name": "hash_4e527a3c_vmdxunba_collision", "enabled": true}
+{"name": "ambient_tv_07", "enabled": true}
+{"name": "hash_9a4a2b3c_nxxvnoi_collision", "enabled": true}
+{"name": "hash_da11323c_nikvpa_collision", "enabled": true}
+{"name": "agency_heist_fib_tower_alarms_door_buzz_07", "enabled": true}
+{"name": "ambient_tv_36", "enabled": true}
+{"name": "hash_7cb9d53e_gdshtxy_collision", "enabled": true}
+{"name": "SE_LS_DOCKS_RADIO_08", "enabled": true}
+{"name": "hash_113b8640_dctczrr_collision", "enabled": true}
+{"name": "hash_f52e4240_chjgnqv_collision", "enabled": true}
+{"name": "hash_29339141_adwtxbyk_collision", "enabled": true}
+{"name": "hash_7988c841_peuudpc_collision", "enabled": true}
+{"name": "hash_aec30941_rysypoy_collision", "enabled": true}
+{"name": "hash_e9b53e42_agkaqgzl_collision", "enabled": true}
+{"name": "hash_a0792343_qvnecl_collision", "enabled": true}
+{"name": "MP_ARM_WRESTLING_RADIO_01", "enabled": true}
+{"name": "hash_5857ec45_hnigjsa_collision", "enabled": true}
+{"name": "SE_LS_DOCKS_RADIO_05", "enabled": true}
+{"name": "prologue_vault_alarms_01", "enabled": true}
+{"name": "se_restaurants_venice_38", "enabled": true}
+{"name": "ambient_tv_42", "enabled": true}
+{"name": "hash_21937e47_irlhoqd_collision", "enabled": true}
+{"name": "se_restaurants_venice_29", "enabled": true}
+{"name": "prison_alarms_tower_03", "enabled": true}
+{"name": "agency_heist_fib_tower_alarms_bell_07", "enabled": true}
+{"name": "MP_ARM_WRESTLING_RADIO_10", "enabled": true}
+{"name": "ambient_tv_33", "enabled": true}
+{"name": "hash_c2f9eb48_ipedofaa_collision", "enabled": true}
+{"name": "hash_d2955348_orcwkt_collision", "enabled": true}
+{"name": "hash_e829a948_pjezbob_collision", "enabled": true}
+{"name": "se_restaurants_venice_44", "enabled": true}
+{"name": "se_restaurants_sunset_29", "enabled": true}
+{"name": "se_trevor_methlab_radio", "enabled": true}
+{"name": "ambient_tv_54", "enabled": true}
+{"name": "hash_6962ed4c_sjoqwpt_collision", "enabled": true}
+{"name": "LOS_SANTOS_VANILLA_UNICORN_02_MAIN_ROOM", "enabled": true}
+{"name": "SE_RESTAURANTS_HOLLYWOOD_04", "enabled": true}
+{"name": "se_ammunation_vinewood", "enabled": true}
+{"name": "hash_1e4dae4d_uxqkolq_collision", "enabled": true}
+{"name": "hash_3ea2464d_jzwlhvd_collision", "enabled": true}
+{"name": "hash_702f5a4d_casoxqw_collision", "enabled": true}
+{"name": "MP_ARM_WRESTLING_RADIO_04", "enabled": true}
+{"name": "se_restaurants_industrial_03", "enabled": true}
+{"name": "MP_ARM_WRESTLING_RADIO_08", "enabled": true}
+{"name": "hash_ac06ba4e_afldfhbz_collision", "enabled": true}
+{"name": "TREVOR1_TRAILER_PARK_MAIN_STAGE_RADIO", "enabled": true}
+{"name": "hash_4706dd4f_euitqru_collision", "enabled": true}
+{"name": "ambient_tv_58", "enabled": true}
+{"name": "ambient_tv_06", "enabled": true}
+{"name": "hash_a81efe50_mmiejsq_collision", "enabled": true}
+{"name": "ambient_tv_40", "enabled": true}
+{"name": "SE_COUNTRY_SAWMILL_MAIN_BUILDING", "enabled": true}
+{"name": "se_restaurants_venice_57", "enabled": true}
+{"name": "fbi_01_morgue_alarm_01", "enabled": true}
+{"name": "hash_51346d54_ldguwpi_collision", "enabled": true}
+{"name": "supermarket_01", "enabled": true}
+{"name": "SE_FRANKLIN_HILLS_HOUSE_RADIO_01", "enabled": true}
+{"name": "hash_792ec355_btedtft_collision", "enabled": true}
+{"name": "fbi_01_morgue_alarm_03_buzz", "enabled": true}
+{"name": "hash_dc419c55_aflqsky_collision", "enabled": true}
+{"name": "ambient_tv_18", "enabled": true}
+{"name": "hash_5f019a56_bgrjpkk_collision", "enabled": true}
+{"name": "hash_e8fd2e57_dhfgmu_collision", "enabled": true}
+{"name": "hash_426c5258_xiecfkz_collision", "enabled": true}
+{"name": "ambient_tv_22", "enabled": true}
+{"name": "port_of_ls_heist_fort_zancudo_alarms_03", "enabled": true}
+{"name": "ambient_tv_17", "enabled": true}
+{"name": "hash_b4267b5a_ixyqfu_collision", "enabled": true}
+{"name": "hash_0c819f5b_aftdor_collision", "enabled": true}
+{"name": "fib_05_biotech_lab_alarms_03", "enabled": true}
+{"name": "agency_heist_fib_tower_alarms_door_buzz_03", "enabled": true}
+{"name": "ambient_tv_64", "enabled": true}
+{"name": "hash_09d6e45d_szveopaa_collision", "enabled": true}
+{"name": "fib_05_biotech_lab_alarms_06", "enabled": true}
+{"name": "hash_ccefdf5d_aexoldet_collision", "enabled": true}
+{"name": "hash_1a75125e_bknhvkt_collision", "enabled": true}
+{"name": "SE_LS_DOCKS_RADIO_01", "enabled": true}
+{"name": "ambient_tv_15", "enabled": true}
+{"name": "fib_05_biotech_lab_alarms_11", "enabled": true}
+{"name": "hash_f6824961_swzmrha_collision", "enabled": true}
+{"name": "hash_1172e862_sxrpuzd_collision", "enabled": true}
+{"name": "hash_44260862_qcppkmd_collision", "enabled": true}
+{"name": "MP_ARM_WRESTLING_RADIO_02", "enabled": true}
+{"name": "hash_54aaf264_aejjkjyb_collision", "enabled": true}
+{"name": "ambient_tv_38", "enabled": true}
+{"name": "se_restaurants_venice_05", "enabled": true}
+{"name": "ambient_tv_08", "enabled": true}
+{"name": "hash_138b036a_npzvloda_collision", "enabled": true}
+{"name": "se_ammunation_east_ls", "enabled": true}
+{"name": "hash_5349296a_jhpoupb_collision", "enabled": true}
+{"name": "alarm_emitter_test", "enabled": true}
+{"name": "TREVOR1_TRAILER_PARK_MAIN_TRAILER_RADIO_02", "enabled": true}
+{"name": "ambient_tv_28", "enabled": true}
+{"name": "hash_bf88db6f_crvpofn_collision", "enabled": true}
+{"name": "hash_c6fc6a6f_rhnaoek_collision", "enabled": true}
+{"name": "se_restaurants_venice_47", "enabled": true}
+{"name": "hash_87d35570_stnlcwfa_collision", "enabled": true}
+{"name": "SE_MP_GARAGE_S_RADIO", "enabled": true}
+{"name": "hash_6ecce071_rxpqufc_collision", "enabled": true}
+{"name": "se_restaurants_venice_28", "enabled": true}
+{"name": "hash_13aeca72_dzjpuwk_collision", "enabled": true}
+{"name": "big_score_heist_vault_alarms_01", "enabled": true}
+{"name": "ambient_tv_34", "enabled": true}
+{"name": "hash_ab6dcc73_audyejg_collision", "enabled": true}
+{"name": "hash_5b457274_fwdyien_collision", "enabled": true}
+{"name": "hash_2600e275_jgbsatp_collision", "enabled": true}
+{"name": "ambient_tv_50", "enabled": true}
+{"name": "SE_MICHAELS_HOUSE_RADIO", "enabled": true}
+{"name": "port_of_ls_heist_ship_alarms_02", "enabled": true}
+{"name": "hash_e0b86476_wosgajb_collision", "enabled": true}
+{"name": "hash_032d0477_lelvqdg_collision", "enabled": true}
+{"name": "SE_MP_GARAGE_L_RADIO", "enabled": true}
+{"name": "SE_RESTAURANTS_SUNSET_13", "enabled": true}
+{"name": "hash_e5adc979_mcmagaz_collision", "enabled": true}
+{"name": "big_score_heist_vault_alarms_04_cage", "enabled": true}
+{"name": "ambient_tv_04", "enabled": true}
+{"name": "ambient_tv_69", "enabled": true}
+{"name": "port_of_ls_heist_ship_alarms_04", "enabled": true}
+{"name": "se_restaurants_korea_01", "enabled": true}
+{"name": "hash_f54fdb7d_mrzfic_collision", "enabled": true}
+{"name": "prison_alarms_tower_05", "enabled": true}
+{"name": "hash_2583167f_ftrowrl_collision", "enabled": true}
+{"name": "hash_95abc47f_egayeqa_collision", "enabled": true}
+{"name": "hash_87945a80_vklreih_collision", "enabled": true}
+{"name": "SE_LS_DOCKS_RADIO_07", "enabled": true}
+{"name": "fib_05_biotech_lab_alarms_05", "enabled": true}
+{"name": "hash_b53c0c80_cgxgmdi_collision", "enabled": true}
+{"name": "se_restaurants_hollywood_24", "enabled": true}
+{"name": "MP_ARM_WRESTLING_RADIO_07", "enabled": true}
+{"name": "SE_LS_DOCKS_RADIO_04", "enabled": true}
+{"name": "ambient_tv_49", "enabled": true}
+{"name": "ambient_tv_24", "enabled": true}
+{"name": "hash_a2754082_xvtevqd_collision", "enabled": true}
+{"name": "LOS_SANTOS_AMMUNATION_GUN_RANGE", "enabled": true}
+{"name": "hash_51b97e83_addkdlxe_collision", "enabled": true}
+{"name": "hash_8acf3383_jlvikcd_collision", "enabled": true}
+{"name": "hash_b5fb4583_xkdfafp_collision", "enabled": true}
+{"name": "ambient_tv_67", "enabled": true}
+{"name": "hash_90528584_cvnotnea_collision", "enabled": true}
+{"name": "ambient_tv_11", "enabled": true}
+{"name": "hash_6db39486_accfeaw_collision", "enabled": true}
+{"name": "hash_fcdcbf86_mkhxpme_collision", "enabled": true}
+{"name": "hash_2bb33887_fqotkmt_collision", "enabled": true}
+{"name": "hash_2bccd587_ccuzlb_collision", "enabled": true}
+{"name": "hash_ae896a87_qfdzglb_collision", "enabled": true}
+{"name": "hash_c1939387_cbzdxei_collision", "enabled": true}
+{"name": "hash_1854d389_aszvgbi_collision", "enabled": true}
+{"name": "prison_alarms_tower_02", "enabled": true}
+{"name": "ambient_tv_01", "enabled": true}
+{"name": "port_of_ls_heist_fort_zancudo_alarms_gate", "enabled": true}
+{"name": "hash_e8384e8a_vuseedz_collision", "enabled": true}
+{"name": "MP_ARM_WRESTLING_RADIO_06", "enabled": true}
+{"name": "hash_28ff428d_ozrgrhh_collision", "enabled": true}
+{"name": "hash_90f7828d_yxocqev_collision", "enabled": true}
+{"name": "hash_b9e6398d_navozvr_collision", "enabled": true}
+{"name": "hash_cccb2e8d_xmgvgpg_collision", "enabled": true}
+{"name": "agency_heist_fib_tower_alarms_bell_04", "enabled": true}
+{"name": "jewel_store_heist_setup_bugstar_alarms_02", "enabled": true}
+{"name": "port_of_ls_heist_ship_alarms_03", "enabled": true}
+{"name": "agency_heist_fib_tower_alarms_door_buzz_05", "enabled": true}
+{"name": "hash_20c55390_ucyhhvb_collision", "enabled": true}
+{"name": "hash_ceca0390_ehcsqzp_collision", "enabled": true}
+{"name": "hash_e721ca90_bkqabdtv_collision", "enabled": true}
+{"name": "se_restaurants_industrial_06", "enabled": true}
+{"name": "hash_5cb3d291_iookbfs_collision", "enabled": true}
+{"name": "hash_50b93792_dzrcuqg_collision", "enabled": true}
+{"name": "SE_FRANKLIN_AUNT_HOUSE_RADIO_01", "enabled": true}
+{"name": "LOS_SANTOS_VANILLA_UNICORN_01_STAGE", "enabled": true}
+{"name": "COUNTRYSIDE_ALTRUIST_CULT_01", "enabled": true}
+{"name": "ambient_tv_31", "enabled": true}
+{"name": "hash_f5bae993_izurtes_collision", "enabled": true}
+{"name": "se_restaurants_hollywood_06", "enabled": true}
+{"name": "hash_8b642694_dtpiuqm_collision", "enabled": true}
+{"name": "se_restaurants_venice_45", "enabled": true}
+{"name": "se_restaurants_downtown_03", "enabled": true}
+{"name": "LOS_SANTOS_ARMENIAN_CAR_DEALERSHIP", "enabled": true}
+{"name": "ambient_tv_63", "enabled": true}
+{"name": "se_restaurants_sunset_24", "enabled": true}
+{"name": "hash_ccbe9797_qlsroth_collision", "enabled": true}
+{"name": "hash_410c9e98_dvwfokg_collision", "enabled": true}
+{"name": "se_restaurants_venice_62", "enabled": true}
+{"name": "hash_52c9e499_yeampcc_collision", "enabled": true}
+{"name": "hash_6a91bd99_hnurujz_collision", "enabled": true}
+{"name": "jewel_store_heist_setup_bugstar_alarms_01", "enabled": true}
+{"name": "hash_c1623099_gwvzmle_collision", "enabled": true}
+{"name": "ambient_tv_47", "enabled": true}
+{"name": "hash_b5e06e9b_wjruahi_collision", "enabled": true}
+{"name": "ambient_tv_13", "enabled": true}
+{"name": "fbi_01_morgue_alarm_02_buzz", "enabled": true}
+{"name": "se_restaurants_venice_67", "enabled": true}
+{"name": "fib_05_biotech_lab_alarms_10", "enabled": true}
+{"name": "hash_e4dfc99f_kboxkcf_collision", "enabled": true}
+{"name": "hash_a01105a0_abpwxyal_collision", "enabled": true}
+{"name": "hash_2c5b94a1_aiqxlgi_collision", "enabled": true}
+{"name": "hash_52c6d3a1_eygruep_collision", "enabled": true}
+{"name": "hash_021275a2_ykscpfh_collision", "enabled": true}
+{"name": "hash_d898a8a2_fdiovny_collision", "enabled": true}
+{"name": "agency_heist_fib_tower_alarms_bell_06", "enabled": true}
+{"name": "hash_6d4888a4_yensyvd_collision", "enabled": true}
+{"name": "ambient_tv_61", "enabled": true}
+{"name": "paleto_bay_score_alarm_01", "enabled": true}
+{"name": "hash_e0a41da5_jfxfiab_collision", "enabled": true}
+{"name": "se_restaurants_venice_30", "enabled": true}
+{"name": "ambient_tv_56", "enabled": true}
+{"name": "ambient_tv_59", "enabled": true}
+{"name": "se_restaurants_sunset_08", "enabled": true}
+{"name": "se_mp_garage_m_radio", "enabled": true}
+{"name": "MP_ARM_WRESTLING_RADIO_09", "enabled": true}
+{"name": "hash_0958f6ab_noicbxo_collision", "enabled": true}
+{"name": "hash_5536d6ab_edfygcq_collision", "enabled": true}
+{"name": "hash_8ffbaaab_zmyagd_collision", "enabled": true}
+{"name": "hash_192683ac_aaelfhog_collision", "enabled": true}
+{"name": "hash_9ed288ad_aajuthaa_collision", "enabled": true}
+{"name": "agency_heist_fib_tower_alarms_door_buzz_08", "enabled": true}
+{"name": "ambient_tv_53", "enabled": true}
+{"name": "ambient_tv_70", "enabled": true}
+{"name": "hash_94c67cae_dqrqpkt_collision", "enabled": true}
+{"name": "hash_c24fb4ae_rhllvtk_collision", "enabled": true}
+{"name": "agency_heist_fib_tower_alarms_bell_02", "enabled": true}
+{"name": "hash_390c08b1_lsesmvi_collision", "enabled": true}
+{"name": "ambient_tv_02", "enabled": true}
+{"name": "SE_FAMILY_2_BOAT_RADIO", "enabled": true}
+{"name": "se_restaurants_venice_50", "enabled": true}
+{"name": "hash_6a6b57b2_znqxdwa_collision", "enabled": true}
+{"name": "prison_alarms_tower_11", "enabled": true}
+{"name": "hash_26a6a7b5_hjcxxkka_collision", "enabled": true}
+{"name": "prison_alarms_tower_07", "enabled": true}
+{"name": "hash_18a53cb8_ruqxxzc_collision", "enabled": true}
+{"name": "agency_heist_fib_tower_alarms_door_buzz_02", "enabled": true}
+{"name": "ambient_tv_37", "enabled": true}
+{"name": "hash_03dd73ba_wfncqjj_collision", "enabled": true}
+{"name": "hash_01bbbebb_qxjidqg_collision", "enabled": true}
+{"name": "paleto_bay_score_alarm_cf_03", "enabled": true}
+{"name": "hash_8f38aabc_idvtwtu_collision", "enabled": true}
+{"name": "se_restaurants_sunset_26", "enabled": true}
+{"name": "ambient_tv_52", "enabled": true}
+{"name": "hash_8be479be_kkzuvoo_collision", "enabled": true}
+{"name": "ambient_tv_21", "enabled": true}
+{"name": "hash_c1eddbbe_zpotxag_collision", "enabled": true}
+{"name": "hash_c4d0b7bf_abkdxpwh_collision", "enabled": true}
+{"name": "hash_d91363bf_wefqrpe_collision", "enabled": true}
+{"name": "hash_3be2ddc0_cezzxng_collision", "enabled": true}
+{"name": "hash_4566dbc1_bpsbvgb_collision", "enabled": true}
+{"name": "hash_d9f9e0c1_gxqtheo_collision", "enabled": true}
+{"name": "hash_569ac7c2_aemnfuoc_collision", "enabled": true}
+{"name": "ambient_tv_16", "enabled": true}
+{"name": "hash_ea3053c2_lpfxbdb_collision", "enabled": true}
+{"name": "hash_3d6cd3c5_gfderpl_collision", "enabled": true}
+{"name": "hash_65ee87c6_iiwexye_collision", "enabled": true}
+{"name": "SE_LS_DOCKS_RADIO_06", "enabled": true}
+{"name": "hash_8a9113c6_vkqxiph_collision", "enabled": true}
+{"name": "ambient_tv_09", "enabled": true}
+{"name": "hash_a2460bc8_ztcibmm_collision", "enabled": true}
+{"name": "SE_PB_MANSION_GROTTO", "enabled": true}
+{"name": "hash_4d5adbc9_twwgega_collision", "enabled": true}
+{"name": "hash_8cd2dfc9_txhjsmk_collision", "enabled": true}
+{"name": "jewel_store_heist_alarms_01", "enabled": true}
+{"name": "SE_PB_MANSION_HOUSE", "enabled": true}
+{"name": "fbi_01_morgue_alarm_04", "enabled": true}
+{"name": "hash_29757dcb_bcvnmyk_collision", "enabled": true}
+{"name": "ambient_tv_43", "enabled": true}
+{"name": "hash_73bf2fcc_twtrowia_collision", "enabled": true}
+{"name": "ambient_tv_65", "enabled": true}
+{"name": "TREVOR1_TRAILER_PARK_MAIN_TRAILER_RADIO_03", "enabled": true}
+{"name": "hash_5c065fd0_gwhfezz_collision", "enabled": true}
+{"name": "paleto_bay_score_alarm_cf_01", "enabled": true}
+{"name": "prison_alarms_tower_04", "enabled": true}
+{"name": "hash_f72ab3d2_tjqltz_collision", "enabled": true}
+{"name": "hash_81f843d3_bygqdtk_collision", "enabled": true}
+{"name": "hash_da6f0dd3_rhskjwla_collision", "enabled": true}
+{"name": "hash_e25de3d3_ablgcawl_collision", "enabled": true}
+{"name": "fib_05_biotech_lab_alarms_08", "enabled": true}
+{"name": "hash_417e05d4_cwvxnxr_collision", "enabled": true}
+{"name": "hash_daab7ad4_dxxuwp_collision", "enabled": true}
+{"name": "SE_LS_DOCKS_RADIO_02", "enabled": true}
+{"name": "port_of_ls_heist_fort_zancudo_alarms_01", "enabled": true}
+{"name": "ambient_tv_45", "enabled": true}
+{"name": "hash_067165d7_thndugx_collision", "enabled": true}
+{"name": "hash_0ecee5d8_ambtbkqd_collision", "enabled": true}
+{"name": "hash_115da0d8_bmkjjwe_collision", "enabled": true}
+{"name": "ambient_tv_14", "enabled": true}
+{"name": "hash_91777bd9_emwfqbr_collision", "enabled": true}
+{"name": "ambient_tv_29", "enabled": true}
+{"name": "hash_3d228bdb_qjybxxf_collision", "enabled": true}
+{"name": "hash_07d964dc_yblmbhna_collision", "enabled": true}
+{"name": "hash_9b06e6dc_farcsdg_collision", "enabled": true}
+{"name": "port_of_ls_heist_fort_zancudo_alarms_02", "enabled": true}
+{"name": "taco_restaurant_01", "enabled": true}
+{"name": "SE_AMMUNATION_CYPRESS_FLATS_GUN_RANGE", "enabled": true}
+{"name": "hash_9ceb51de_dvazqsr_collision", "enabled": true}
+{"name": "ambient_tv_27", "enabled": true}
+{"name": "ambient_tv_05", "enabled": true}
+{"name": "ambient_tv_39", "enabled": true}
+{"name": "hash_77c945e0_vfmrpjka_collision", "enabled": true}
+{"name": "hash_97bfeae0_jouhjvq_collision", "enabled": true}
+{"name": "hash_b603f7e0_ldgjahx_collision", "enabled": true}
+{"name": "hash_08034ee1_fqorqnb_collision", "enabled": true}
+{"name": "LOS_SANTOS_VANILLA_UNICORN_03_BACK_ROOM", "enabled": true}
+{"name": "ambient_tv_35", "enabled": true}
+{"name": "agency_heist_fib_tower_alarms_bell_09", "enabled": true}
+{"name": "hash_3e7cb8e3_amiddqc_collision", "enabled": true}
+{"name": "se_restaurants_korea_05", "enabled": true}
+{"name": "se_restaurants_korea_08", "enabled": true}
+{"name": "hash_965775e4_kvatorva_collision", "enabled": true}
+{"name": "hash_f5e5e9e5_ifqyipx_collision", "enabled": true}
+{"name": "big_score_heist_vault_alarms_02", "enabled": true}
+{"name": "agency_heist_fib_tower_alarms_door_buzz_04", "enabled": true}
+{"name": "hash_606294e9_duobmzz_collision", "enabled": true}
+{"name": "hash_787d87e9_ddjbejca_collision", "enabled": true}
+{"name": "hash_7ba2b2e9_scepxku_collision", "enabled": true}
+{"name": "fib_05_biotech_lab_alarms_07", "enabled": true}
+{"name": "se_restaurants_venice_19", "enabled": true}
+{"name": "ambient_tv_23", "enabled": true}
+{"name": "port_of_ls_heist_ship_alarms_01", "enabled": true}
+{"name": "se_restaurants_venice_32", "enabled": true}
+{"name": "hash_acd64aeb_ddwqwyl_collision", "enabled": true}
+{"name": "TREVOR_APARTMENT_RADIO", "enabled": true}
+{"name": "hash_2f24acec_qgfhcap_collision", "enabled": true}
+{"name": "hash_3b8935ec_wpsztca_collision", "enabled": true}
+{"name": "hash_486225ed_erxjglra_collision", "enabled": true}
+{"name": "SE_TREVOR_TRAILER_RADIO_01", "enabled": true}
+{"name": "ambient_tv_68", "enabled": true}
+{"name": "fib_05_biotech_lab_alarms_01", "enabled": true}
+{"name": "hash_2ffea0f0_annioqxu_collision", "enabled": true}
+{"name": "hash_858a8df0_dxxsqbu_collision", "enabled": true}
+{"name": "hash_ca9117f0_ldcurms_collision", "enabled": true}
+{"name": "MP_ARM_WRESTLING_RADIO_05", "enabled": true}
+{"name": "hash_4bff29f5_rrsckn_collision", "enabled": true}
+{"name": "ambient_tv_55", "enabled": true}
+{"name": "hash_816f78f5_avmmkmp_collision", "enabled": true}
+{"name": "se_restaurants_korea_03", "enabled": true}
+{"name": "hash_725246f6_akhbhae_collision", "enabled": true}
+{"name": "hash_d8ec4cf7_adfnxrm_collision", "enabled": true}
+{"name": "hash_49074df8_dcutqfb_collision", "enabled": true}
+{"name": "MP_ARM_WRESTLING_RADIO_03", "enabled": true}
+{"name": "hash_f1cebffa_kxpuock_collision", "enabled": true}
+{"name": "se_restaurants_venice_48", "enabled": true}
+{"name": "ambient_tv_62", "enabled": true}
+{"name": "hash_196b66fc_uauhtxn_collision", "enabled": true}
+{"name": "SE_LOS_SANTOS_EPSILONISM_BUILDING_01", "enabled": true}
+{"name": "hash_4d3849fd_jphguho_collision", "enabled": true}
+{"name": "se_restaurants_malibu_10", "enabled": true}
+{"name": "hash_30e776ff_asngnqi_collision", "enabled": true}
+{"name": "hash_4455e4ff_dhtvfbs_collision", "enabled": true}
+{"name": "hash_774033ff_ffnwpe_collision", "enabled": true}
+{"name": "se_xm3_dlc_int_02_xm3_radioemitter", "enabled": true}
+{"name": "se_xm3_dlc_int_01_xm3_radioemitter", "enabled": true}
+{"name": "se_xm3_dlc_int_03_xm3_radioemitter_main_area", "enabled": true}
+{"name": "se_xm3_dlc_lab_radioemitter_exterior", "enabled": true}
+{"name": "se_xm3_dlc_int_03_xm3_radioemitter_office", "enabled": true}
+{"name": "se_dlc_aw_xs_x18_int_mod2_garage_radio", "enabled": true}
+{"name": "se_dlc_aw_arena_crowd_background_main", "enabled": true}
+{"name": "se_dlc_aw_xs_x18_int_mod_garage_radio", "enabled": true}
+{"name": "se_dlc_aw_xs_arena_vip_radio", "enabled": true}
+{"name": "se_dlc_aw_xs_x18_int_mod_garage_office_theme", "enabled": true}
+{"name": "se_dlc_aw_arena_crowd_interior_lobby", "enabled": true}
+{"name": "se_dlc_aw_arena_crowd_exterior_lobby", "enabled": true}
+{"name": "se_dlc_aw_arena_construction_01", "enabled": true}
+{"name": "se_xm_int_02_lounge_radio", "enabled": true}
+{"name": "se_xm_int_01_avngr_radio", "enabled": true}
+{"name": "se_xm_int_02_bedroom_radio", "enabled": true}
+{"name": "se_mp_garage_m_radio", "enabled": true}
+{"name": "se_xm_x17dlc_int_sub_stream", "enabled": true}
+{"name": "se_mp_apt_11_3", "enabled": true}
+{"name": "se_mp_apt_16_2", "enabled": true}
+{"name": "se_mp_apt_7_2", "enabled": true}
+{"name": "se_mp_apt_9_1", "enabled": true}
+{"name": "se_mp_apt_6_2", "enabled": true}
+{"name": "se_mp_apt_14_2", "enabled": true}
+{"name": "se_mp_apt_14_1", "enabled": true}
+{"name": "se_mp_apt_new_5_2", "enabled": true}
+{"name": "se_mp_apt_13_2", "enabled": true}
+{"name": "se_mp_apt_new_4_3", "enabled": true}
+{"name": "se_mp_apt_8_1", "enabled": true}
+{"name": "se_mp_apt_4_1", "enabled": true}
+{"name": "se_mp_apt_10_1", "enabled": true}
+{"name": "se_mp_apt_10_3", "enabled": true}
+{"name": "se_mp_apt_17_3", "enabled": true}
+{"name": "se_mp_apt_new_3_2", "enabled": true}
+{"name": "se_mp_apt_new_1_3", "enabled": true}
+{"name": "se_mp_apt_1_2", "enabled": true}
+{"name": "se_mp_apt_15_2", "enabled": true}
+{"name": "se_mp_apt_15_3", "enabled": true}
+{"name": "se_mp_apt_new_4_1", "enabled": true}
+{"name": "se_mp_apt_16_3", "enabled": true}
+{"name": "se_mp_apt_5_3", "enabled": true}
+{"name": "se_mp_apt_12_3", "enabled": true}
+{"name": "se_mp_apt_14_3", "enabled": true}
+{"name": "se_mp_apt_2_2", "enabled": true}
+{"name": "se_mp_apt_11_1", "enabled": true}
+{"name": "se_mp_apt_13_3", "enabled": true}
+{"name": "se_mp_apt_3_1", "enabled": true}
+{"name": "se_mp_apt_10_2", "enabled": true}
+{"name": "se_mp_apt_new_1_1", "enabled": true}
+{"name": "se_mp_apt_2_1", "enabled": true}
+{"name": "se_mp_apt_15_1", "enabled": true}
+{"name": "se_mp_apt_new_2_1", "enabled": true}
+{"name": "se_mp_apt_9_2", "enabled": true}
+{"name": "se_mp_apt_12_2", "enabled": true}
+{"name": "se_mp_apt_7_1", "enabled": true}
+{"name": "se_mp_apt_7_3", "enabled": true}
+{"name": "se_mp_apt_6_3", "enabled": true}
+{"name": "se_mp_apt_new_2_2", "enabled": true}
+{"name": "se_mp_apt_11_2", "enabled": true}
+{"name": "se_mp_apt_6_1", "enabled": true}
+{"name": "se_mp_apt_13_1", "enabled": true}
+{"name": "se_mp_apt_5_2", "enabled": true}
+{"name": "se_mp_apt_new_5_1", "enabled": true}
+{"name": "se_mp_apt_4_2", "enabled": true}
+{"name": "se_mp_apt_new_3_1", "enabled": true}
+{"name": "se_mp_apt_16_1", "enabled": true}
+{"name": "se_mp_apt_17_1", "enabled": true}
+{"name": "se_mp_apt_8_2", "enabled": true}
+{"name": "se_mp_apt_17_2", "enabled": true}
+{"name": "se_mp_apt_new_5_3", "enabled": true}
+{"name": "se_mp_apt_new_3_3", "enabled": true}
+{"name": "se_mp_apt_9_3", "enabled": true}
+{"name": "se_mp_ap_rad_v_apart_midspaz_lounge", "enabled": true}
+{"name": "se_mp_apt_3_3", "enabled": true}
+{"name": "se_mp_apt_new_4_2", "enabled": true}
+{"name": "se_mp_apt_1_1", "enabled": true}
+{"name": "se_mp_apt_5_1", "enabled": true}
+{"name": "se_mp_apt_2_3", "enabled": true}
+{"name": "se_mp_apt_new_1_2", "enabled": true}
+{"name": "se_mp_apt_4_3", "enabled": true}
+{"name": "se_mp_apt_new_2_3", "enabled": true}
+{"name": "se_mp_apt_8_3", "enabled": true}
+{"name": "se_mp_ap_rad_v_studio_lo_living", "enabled": true}
+{"name": "se_mp_apt_1_3", "enabled": true}
+{"name": "se_mp_apt_12_1", "enabled": true}
+{"name": "se_mp_apt_3_2", "enabled": true}
+{"name": "dlc_h3_fm_cashier_radio_03", "enabled": true}
+{"name": "dlc_h3_arcade_planning_room_radio_emitter", "enabled": true}
+{"name": "dlc_h3_arcade_main_area_music_emitter", "enabled": true}
+{"name": "dlc_h3_fm_cashier_radio_02", "enabled": true}
+{"name": "dlc_h3_fm_cashier_radio_04", "enabled": true}
+{"name": "dlc_h3_fm_cashier_radio_01", "enabled": true}
+{"name": "dlc_h3_fm_prep_explosives_radio", "enabled": true}
+{"name": "se_h4_dlc_int_02_h4_lobby", "enabled": true}
+{"name": "se_h4_dlc_int_02_h4_main_front_01", "enabled": true}
+{"name": "se_h4_dlc_int_02_h4_main_front_02", "enabled": true}
+{"name": "dlc_h4_se_mpjo", "enabled": true}
+{"name": "dlc_h4_se_safe_codes_penthouse_music_entryway", "enabled": true}
+{"name": "se_dlc_hei4_island_beach_party_music_new_01_left", "enabled": true}
+{"name": "dlc_h4_se_safe_codes_penthouse_music", "enabled": true}
+{"name": "se_dlc_hei4_island_beach_party_music_new_03_reverb", "enabled": true}
+{"name": "dlc_h4_se_safe_codes_penthouse_music_lounge", "enabled": true}
+{"name": "dlc_h4_se_safe_codes_room_music", "enabled": true}
+{"name": "se_hei4_int_sub_stream", "enabled": true}
+{"name": "se_h4_dlc_int_02_h4_main_room_cutscenes", "enabled": true}
+{"name": "se_h4_dlc_int_02_h4_main_bar", "enabled": true}
+{"name": "se_dlc_hei4_island_beach_party_music_new_02_right", "enabled": true}
+{"name": "se_hei4_int_sub_mess_radio", "enabled": true}
+{"name": "se_h4_dlc_int_02_h4_entrance_doorway", "enabled": true}
+{"name": "se_dlc_hei4_island_beach_party_music_new_04_reverb", "enabled": true}
+{"name": "se_h4_dlc_int_02_h4_bogs", "enabled": true}
+{"name": "se_dmod_trailer_radio", "enabled": true}
+{"name": "se_dmod_trailer_radio", "enabled": true}
+{"name": "se_supermod_01", "enabled": true}
+{"name": "se_dlc_apt_yacht_bedroom", "enabled": true}
+{"name": "se_dlc_apt_stilts_b_heist_room", "enabled": true}
+{"name": "se_dlc_apt_yacht_exterior_02", "enabled": true}
+{"name": "se_dlc_apt_yacht_bar", "enabled": true}
+{"name": "se_dlc_apt_yacht_bedroom_03", "enabled": true}
+{"name": "se_dlc_apt_yacht_exterior_03", "enabled": true}
+{"name": "se_dlc_apt_stilts_b_living_room", "enabled": true}
+{"name": "se_dlc_apt_yacht_exterior_04", "enabled": true}
+{"name": "se_dlc_apt_stilts_a_bedroom", "enabled": true}
+{"name": "se_dlc_apt_stilts_a_living_room", "enabled": true}
+{"name": "se_dlc_apt_stilts_b_bedroom", "enabled": true}
+{"name": "se_dlc_apt_yacht_bedroom_02", "enabled": true}
+{"name": "se_dlc_apt_custom_heist_room", "enabled": true}
+{"name": "se_dlc_apt_stilts_a_heist_room", "enabled": true}
+{"name": "se_dlc_apt_custom_living_room", "enabled": true}
+{"name": "se_dlc_apt_custom_bedroom", "enabled": true}
+{"name": "se_dlc_apt_yacht_exterior_01", "enabled": true}
+{"name": "se_exec_wh_s_radio", "enabled": true}
+{"name": "se_ex_int_office_02a_radio_01", "enabled": true}
+{"name": "se_ex_int_office_01a_radio_01", "enabled": true}
+{"name": "se_ex_int_office_02b_radio_01", "enabled": true}
+{"name": "se_exec_wh_l_radio", "enabled": true}
+{"name": "se_ex_int_office_01c_radio_01", "enabled": true}
+{"name": "se_ex_int_office_02c_radio_01", "enabled": true}
+{"name": "se_ex_int_office_03b_radio_01", "enabled": true}
+{"name": "se_ex_int_office_03a_radio_01", "enabled": true}
+{"name": "se_exec_wh_m_radio", "enabled": true}
+{"name": "se_ex_int_office_03c_radio_01", "enabled": true}
+{"name": "se_ex_int_office_01b_radio_01", "enabled": true}
+{"name": "dlc_ie_warehouse_radio_01", "enabled": true}
+{"name": "dlc_ie_steal_tow_mirror_park_radio_emitter", "enabled": true}
+{"name": "dlc_ie_office_garage_radio_01", "enabled": true}
+{"name": "dlc_ie_steal_pool_party_default_radio_emitter", "enabled": true}
+{"name": "dlc_ie_steal_pool_party_milton_rd__radio_emitter", "enabled": true}
+{"name": "dlc_ie_steal_photo_shoot_sonora_desert_radio_emitter", "enabled": true}
+{"name": "dlc_ie_office_garage_mod_shop_radio_01", "enabled": true}
+{"name": "dlc_ie_steal_pool_party_lake_vine_radio_emitter", "enabled": true}
+{"name": "dlc_ie_steal_photo_shoot_radio_emitter", "enabled": true}
+{"name": "dlc_ie_steal_photo_shoot_wind_farm_radio_emitter", "enabled": true}
+{"name": "dlc_ie_steal_photo_shoot_pier_radio_emitter", "enabled": true}
+{"name": "dlc_ie_steal_tow_sandy_shores_radio_emitter", "enabled": true}
+{"name": "se_dlc_biker_vagos_clubhouse_02", "enabled": true}
+{"name": "se_bkr_biker_dlc_int_02_grg", "enabled": true}
+{"name": "se_bkr_biker_dlc_int_01_bar", "enabled": true}
+{"name": "se_dlc_biker_weed_warehouse_radio", "enabled": true}
+{"name": "se_dlc_biker_lost_mc_clubhouse_01", "enabled": true}
+{"name": "se_dlc_biker_cash_warehouse_radio", "enabled": true}
+{"name": "se_bkr_biker_dlc_int_01_grg", "enabled": true}
+{"name": "se_bkr_biker_dlc_int_02_rec", "enabled": true}
+{"name": "se_dlc_biker_tequilala_exterior_emitter", "enabled": true}
+{"name": "se_dlc_biker_meth_warehouse_radio", "enabled": true}
+{"name": "se_dlc_biker_crack_warehouse_radio", "enabled": true}
+{"name": "se_dlc_biker_vagos_clubhouse_01", "enabled": true}
+{"name": "se_dlc_biker_fakeid_warehouse_radio", "enabled": true}
+{"name": "se_bkr_biker_dlc_int_01_rec", "enabled": true}
+{"name": "se_dlc_biker_lost_mc_clubhouse_02", "enabled": true}
+{"name": "se_dlc_gr_moc_radio_01", "enabled": true}
+{"name": "se_dlc_gr_bunker_radio_01", "enabled": true}
+{"name": "se_dlc_gr_bunker_radio_06", "enabled": true}
+{"name": "se_dlc_gr_bunker_radio_05", "enabled": true}
+{"name": "se_dlc_gr_bunker_radio_03", "enabled": true}
+{"name": "se_dlc_gr_bunker_radio_02", "enabled": true}
+{"name": "se_dlc_gr_bunker_radio_07", "enabled": true}
+{"name": "se_dlc_gr_bunker_radio_04", "enabled": true}
+{"name": "se_dlc_sm_hangar_radio_living_quarters_02", "enabled": true}
+{"name": "se_dlc_sm_hangar_radio_office_01", "enabled": true}
+{"name": "se_dlc_sm_hangar_radio_office_04", "enabled": true}
+{"name": "se_dlc_sm_hangar_radio_office_02", "enabled": true}
+{"name": "se_dlc_sm_hangar_radio_mechanic", "enabled": true}
+{"name": "se_dlc_sm_hangar_radio_living_quarters_01", "enabled": true}
+{"name": "se_dlc_sm_hangar_radio_office_03", "enabled": true}
+{"name": "se_ba_dlc_int_01_main_area_2", "enabled": true}
+{"name": "se_dlc_btl_yacht_exterior_01", "enabled": true}
+{"name": "se_ba_dlc_int_01_main_area", "enabled": true}
+{"name": "se_ba_int_03_ba_hktrk_radio", "enabled": true}
+{"name": "se_ba_dlc_int_01_rear_l_corridor", "enabled": true}
+{"name": "se_ba_dlc_int_01_bogs", "enabled": true}
+{"name": "se_ba_dlc_club_exterior", "enabled": true}
+{"name": "se_ba_int_02_ba_workshop_radio", "enabled": true}
+{"name": "se_ba_dlc_int_01_bars", "enabled": true}
+{"name": "se_ba_dlc_int_01_entry_hall", "enabled": true}
+{"name": "se_ba_dlc_int_01_garage", "enabled": true}
+{"name": "se_ba_dlc_int_01_office", "enabled": true}
+{"name": "se_ba_dlc_int_01_entry_stairs", "enabled": true}
+{"name": "se_vw_dlc_casino_apart_apart_party_music_02", "enabled": true}
+{"name": "se_vw_dlc_casino_main_rm_lounge_01_radio", "enabled": true}
+{"name": "se_vw_dlc_casino_main_rm_reception_radio", "enabled": true}
+{"name": "se_vw_dlc_casino_apart_apart_lounge_room_radio", "enabled": true}
+{"name": "se_vw_dlc_casino_main_rm_toilet_01_radio", "enabled": true}
+{"name": "se_vw_dlc_casino_main_rm_gamingfloor_01_bar_radio", "enabled": true}
+{"name": "se_vw_dlc_casino_apart_apart_spa_room_water", "enabled": true}
+{"name": "se_vw_dlc_casino_main_rm_toilet_02_radio", "enabled": true}
+{"name": "se_vw_dlc_casino_apart_apart_default_room_radio", "enabled": true}
+{"name": "se_vw_dlc_casino_apart_apart_party_music_01", "enabled": true}
+{"name": "se_vw_dlc_casino_main_rm_bettingroom_radio", "enabled": true}
+{"name": "se_vw_dlc_casino_exterior_terrace_01", "enabled": true}
+{"name": "se_vw_dlc_casino_main_rm_gamingfloor_02_slots_radio", "enabled": true}
+{"name": "se_vw_dlc_casino_main_rm_shop_radio", "enabled": true}
+{"name": "se_vw_dlc_casino_apart_apart_party_music_03", "enabled": true}
+{"name": "se_vw_dlc_casino_main_rm_gamingfloor_03_slots_radio", "enabled": true}
+{"name": "se_vw_dlc_casino_main_rm_lounge_02_radio", "enabled": true}
+{"name": "se_vw_dlc_casino_exterior_main_entrance", "enabled": true}
+{"name": "se_vw_dlc_casino_main_rm_bettingroom_main_floor_radio", "enabled": true}
+{"name": "se_vw_dlc_casino_exterior_terrace_bar", "enabled": true}
+{"name": "se_vw_dlc_casino_exterior_terrace_02", "enabled": true}
+{"name": "se_vw_dlc_casino_exterior_terrace_03", "enabled": true}
+{"name": "se_vw_dlc_casino_main_rm_gamingfloor_01_slots_radio", "enabled": true}
+{"name": "se_vw_dlc_casino_apart_apart_arcade_room_radio", "enabled": true}
+{"name": "dlc_mpsum2_auto_store_music", "enabled": true}
+{"name": "se_tr_tuner_car_meet_sandbox_viewer_area_music_02", "enabled": true}
+{"name": "se_tr_tuner_car_meet_meet_rm_music_00", "enabled": true}
+{"name": "se_tr_tuner_car_meet_main_rm_vehicle_noise_01", "enabled": true}
+{"name": "dlc_tuner_meet_building_music", "enabled": true}
+{"name": "se_tr_tuner_mod_garage_radio_01", "enabled": true}
+{"name": "se_tr_tuner_car_meet_meet_rm_music_02", "enabled": true}
+{"name": "se_tr_tuner_car_meet_meet_rm_music_04", "enabled": true}
+{"name": "se_tr_tuner_car_meet_sandbox_music_02", "enabled": true}
+{"name": "se_tr_tuner_car_meet_meet_rm_music_takeover", "enabled": true}
+{"name": "dlc_tuner_meet_building_engines", "enabled": true}
+{"name": "se_tr_tuner_car_meet_sandbox_music_01", "enabled": true}
+{"name": "se_tr_tuner_car_meet_sandbox_viewer_area_music_01", "enabled": true}
+{"name": "se_tr_tuner_car_meet_sandbox_viewer_area_music_01_b", "enabled": true}
+{"name": "se_tr_tuner_car_meet_main_rm_vehicle_noise_02", "enabled": true}
+{"name": "se_tr_tuner_car_meet_sandbox_viewer_area_music_02_b", "enabled": true}
+{"name": "se_tr_tuner_car_meet_meet_rm_music_03", "enabled": true}
+{"name": "se_tr_tuner_car_meet_meet_rm_music_05", "enabled": true}
+{"name": "se_tr_tuner_car_meet_meet_rm_music_01", "enabled": true}
+{"name": "se_dlc_fixer_data_leak_mansion_speaker_02", "enabled": true}
+{"name": "se_dlc_fixer_data_leak_mansion_speaker_04", "enabled": true}
+{"name": "se_dlc_fixer_data_leak_mansion_speaker_06", "enabled": true}
+{"name": "se_sf_dlc_studio_sec_studio_02", "enabled": true}
+{"name": "se_sf_dlc_office_sec_franklin_office", "enabled": true}
+{"name": "se_dlc_fixer_data_leak_mansion_speaker_03", "enabled": true}
+{"name": "se_sf_dlc_studio_sec_lobby_01", "enabled": true}
+{"name": "se_dlc_fixer_data_leak_mansion_speaker_08", "enabled": true}
+{"name": "se_dlc_fixer_data_leak_mansion_speaker_01", "enabled": true}
+{"name": "se_sf_dlc_office_sec_hacker_01", "enabled": true}
+{"name": "se_sf_dlc_garage_sec_room_f2_01", "enabled": true}
+{"name": "se_sf_dlc_garage_sec_room_f1_01", "enabled": true}
+{"name": "se_sf_dlc_garage_sec_room_gf_01", "enabled": true}
+{"name": "se_dlc_fixer_data_leak_mansion_speaker_07", "enabled": true}
+{"name": "se_dlc_sec_weed_warehouse_radio", "enabled": true}
+{"name": "se_dlc_fixer_data_leak_mansion_speaker_05", "enabled": true}
+{"name": "se_dlc_fixer_data_leak_mansion_speaker_10", "enabled": true}
+{"name": "se_sf_dlc_studio_sec_studio_01", "enabled": true}
+{"name": "se_sf_dlc_studio_sec_writers_01", "enabled": true}
+{"name": "se_dlc_fixer_investigation_way_in_music_01", "enabled": true}
+{"name": "se_sf_dlc_office_sec_apartment_01", "enabled": true}
+{"name": "se_sf_dlc_office_sec_player_office", "enabled": true}
+{"name": "se_sf_dlc_office_sec_backstairs_01", "enabled": true}
+{"name": "se_dlc_fixer_data_leak_mansion_speaker_09", "enabled": true}
+{"name": "se_sf_dlc_garage_sec_room_stairs_01", "enabled": true}
+{"name": "se_sf_dlc_office_sec_main_01", "enabled": true}
+{"name": "se_m23_1_dlc_int_02_m23_1_warehouse_medium_03", "enabled": true}
+{"name": "se_m23_1_dlc_int_01_avngr_radio", "enabled": true}
+{"name": "se_m23_1_dlc_int_02_m23_1_warehouse_medium_01", "enabled": true}
+{"name": "se_m23_1_dlc_int_02_m23_1_warehouse_medium_04", "enabled": true}
+{"name": "se_m23_1_dlc_int_02_m23_1_warehouse_medium_02", "enabled": true}
+
 }

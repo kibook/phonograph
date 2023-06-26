@@ -78,8 +78,16 @@ Config.models = {
 		label = "Boombox",
 		filter = false,
 	},
-	[`prop_portable_hifi_01`] = {
+	[`xm3_prop_xm3_boombox_01a`] = {
 		label = "Boombox",
+		filter = false,
+	},
+	[`v_ind_cs_hifi`] = {
+		label = "Stereo",
+		filter = false,
+	},
+	[`prop_portable_hifi_01`] = {
+		label = "Stereo",
 		filter = false,
 	},
 	[`prop_tapeplayer_01`] = {

@@ -1204,6 +1204,7 @@ function getScaleformSettings(standalone) {
 	var rotZInput = document.getElementById('scaleform-rotation-z');
 	var scaleXInput = document.getElementById('scaleform-scale-x');
 	var scaleYInput = document.getElementById('scaleform-scale-y');
+	var scaleZInput = document.getElementById('scaleform-scale-z');
 	var attachedInput = document.getElementById('scaleform-attached');
 
 	var name = nameInput.value;
@@ -1215,6 +1216,7 @@ function getScaleformSettings(standalone) {
 	var rotZ = parseFloat(rotZInput.value);
 	var scaleX = parseFloat(scaleXInput.value);
 	var scaleY = parseFloat(scaleYInput.value);
+	var scaleZ = parseFloat(scaleZInput.value);
 	var attached = attachedInput.checked;
 
 	if (name == '') {
@@ -1253,6 +1255,10 @@ function getScaleformSettings(standalone) {
 		scaleY = 0;
 	}
 
+	if (isNaN(scaleZ)) {
+		scaleZ = 0;
+	}
+
 	return {
 		name: name,
 		position: {
@@ -1268,7 +1274,7 @@ function getScaleformSettings(standalone) {
 		scale: {
 			x: scaleX,
 			y: scaleY,
-			z: 0
+			z: scaleZ
 		},
 		standalone: standalone,
 		attached: attached
@@ -1468,6 +1474,7 @@ function setMediaPlayerDefaults(handle) {
 			document.getElementById('scaleform-rotation-z').value = scaleform.rotation.z;
 			document.getElementById('scaleform-scale-x').value = scaleform.scale.x;
 			document.getElementById('scaleform-scale-y').value = scaleform.scale.y;
+			document.getElementById('scaleform-scale-z').value = scaleform.scale.z;
 			document.getElementById('scaleform-attached').checked = scaleform.attached;
 
 			document.getElementById('scaleform').checked = true;

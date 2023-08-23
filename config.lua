@@ -128,6 +128,46 @@ Config.models = {
 	[`sm_prop_smug_radio_01`] = {
 		label = "Radio"
 	},
+	[`prop_acc_guitar_01_d1`] = {
+		label = "Accoustic Guitar",
+		filter = true,
+	},
+	[`sf_prop_sf_acc_guitar_01a`] = {
+		label = "Accoustic Guitar",
+		filter = true,
+	},
+	[`prop_el_guitar_01`] = {
+		label = "Electric Guitar",
+		filter = false,
+	},
+	[`prop_el_guitar_02`] = {
+		label = "Electric Guitar",
+		filter = false,
+	},
+	[`prop_el_guitar_03`] = {
+		label = "Electric Guitar",
+		filter = false,
+	},
+	[`vw_prop_casino_art_guitar_01a`] = {
+		label = "Electric Guitar",
+		filter = false,
+	},
+	[`bkr_int_02_elec_guitar`] = {
+		label = "Electric Guitar",
+		filter = false,
+	},
+	[`sf_prop_sf_el_guitar_01a`] = {
+		label = "Electric Guitar",
+		filter = false,
+	},
+	[`sf_prop_sf_el_guitar_02a`] = {
+		label = "Electric Guitar",
+		filter = false,
+	},
+	[`sf_prop_sf_el_guitar_03a`] = {
+		label = "Electric Guitar",
+		filter = false,
+	},
 	[`ex_prop_ex_tv_flat_01`] = {
 		label = "TV",
 		renderTarget = "ex_tvscreen"

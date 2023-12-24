@@ -856,5 +856,10 @@ StaticEmitters = {
 {name = "se_m23_1_dlc_int_02_m23_1_warehouse_medium_01", enabled = true},
 {name = "se_m23_1_dlc_int_02_m23_1_warehouse_medium_04", enabled = true},
 {name = "se_m23_1_dlc_int_02_m23_1_warehouse_medium_02", enabled = true},
+{name = "se_m23_2_dlc_int_salvage_radioemitter_shop_floor_01", enabled = true},
+{name = "se_m23_2_dlc_int_salvage_radioemitter_shop_floor_02", enabled = true},
+{name = "se_m23_2_dlc_int_salvage_radioemitter_shop_floor_03", enabled = true},
+{name = "dlc_23_2_casino_floor_muffled_emitter_01", enabled = true},
+{name = "dlc_23_2_casino_floor_muffled_emitter_01", enabled = true},
 
 }

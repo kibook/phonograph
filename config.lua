@@ -128,6 +128,18 @@ Config.models = {
 	[`sm_prop_smug_radio_01`] = {
 		label = "Radio"
 	},
+	[`prop_tay_guitar_001`] = {
+		label = "Accoustic Guitar Pink",
+		filter = true,
+	},
+	[`prop_tay_guitar_002`] = {
+		label = "Accoustic Guitar Pride",
+		filter = true,
+	},
+	[`prop_acc_guitar_01`] = {
+		label = "Accoustic Guitar",
+		filter = true,
+	},
 	[`prop_acc_guitar_01_d1`] = {
 		label = "Accoustic Guitar",
 		filter = true,
@@ -168,6 +180,14 @@ Config.models = {
 		label = "Electric Guitar",
 		filter = false,
 	},
+	[`rpemotes_prop_saxophone01`] = {
+		label = "Saxophone",
+		filter = false,
+	},
+	[`rpemotes_prop_saxophone02`] = {
+		label = "Saxophone",
+		filter = false,
+	},
 	[`ex_prop_ex_tv_flat_01`] = {
 		label = "TV",
 		renderTarget = "ex_tvscreen"
@@ -200,6 +220,14 @@ Config.models = {
 		label = "Monitor",
 		renderTarget = "tvscreen"
 	},
+	[`m23_2_prop_m32_crt_mon_01a`] = {
+		label = "Monitor",
+		renderTarget = "m32_crtscreen_01a"
+	},
+	[`m23_2_prop_m32_desktop_01a`] = {
+		label = "Monitor",
+		renderTarget = "m32_desktop_01a"
+	},
 	[`hei_prop_dlc_tablet`] = {
 		label = "Tablet",
 		renderTarget = "tablet"
@@ -219,6 +247,26 @@ Config.models = {
 	[`prop_tv_03_overlay`] = {
 		label = "TV",
 		renderTarget = "tvscreen"
+	},
+	[`prop_tv_04`] = {
+		label = "TV",
+		renderTarget = "tvscreen"
+	},
+	[`prop_tv_test`] = {
+		label = "TV",
+		renderTarget = "tvscreen"
+	},
+	[`prop_tv_05`] = {
+		label = "TV",
+		renderTarget = "tvscreen"
+	},
+	[`prop_tv_06`] = {
+		label = "TV",
+		renderTarget = "tvscreen"
+	},
+	[`prop_tv_07`] = {
+		label = "TV",
+		renderTarget = "tv_screen_02b"
 	},
 	[`prop_laptop_lester2`] = {
 		label = "Laptop",
@@ -435,6 +483,14 @@ Config.models = {
 	[`gr_prop_gr_trailer_tv_02`] = {
 		label = "TV",
 		renderTarget = "gr_trailertv_02"
+	},
+	[`m23_2_prop_m32_hackdevice_01a`] = {
+		label = "Hack Device",
+		renderTarget = "w_am_hackdevice_m32"
+	},
+	[`m23_2_prop_m32_hackdevice_01a`] = {
+		label = "Hack Device",
+		renderTarget = "w_am_hackdevice_m32"
 	},
 	[`hei_prop_dlc_heist_board`] = {
 		label = "Projector",
@@ -904,5 +960,6 @@ Config.autoDisableVehicleRadio = true
 Config.allowedUrls = {
 	"^https?://w?w?w?%.?youtube.com/.*$",
 	"^https?://w?w?w?%.?youtu.be/.*$",
-	"^https?://w?w?w?%.?twitch.tv/.*$"
+	"^https?://w?w?w?%.?twitch.tv/.*$",
+    "^https?://w?w?w?%.?kick.com/.*$"
 }

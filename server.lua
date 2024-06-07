@@ -117,7 +117,7 @@ local function addMediaPlayer(handle, options)
 	mediaPlayers[handle] = options
 
 	enqueue(syncQueue, function()
-		TriggerClientEvent("pmms:play", -1, handle)
+		TriggerClientEvent("pmms:play", -1, handle, options)
 	end)
 end
 

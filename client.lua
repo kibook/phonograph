@@ -1318,10 +1318,11 @@ AddEventHandler("pmms:start", function(handle, options)
 	})
 end)
 
-AddEventHandler("pmms:play", function(handle)
-	sendMediaMessage(handle, nil, {
+AddEventHandler("pmms:play", function(handle, options)
+	sendMediaMessage(handle, options.coords, {
 		type = "play",
-		handle = handle
+		handle = handle,
+		options = options
 	})
 end)
 

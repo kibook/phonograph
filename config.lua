@@ -122,6 +122,9 @@ Config.models = {
 	[`prop_mp3_dock`] = {
 		label = "MP3 Dock"
 	},
+	[`m24_1_prop_m41_radio_01a`] = {
+		label = "MP3 Dock"
+	},
 	[`v_res_mm_audio`] = {
 		label = "MP3 Dock"
 	},
@@ -180,11 +183,11 @@ Config.models = {
 		label = "Electric Guitar",
 		filter = false,
 	},
-	[`rpemotes_prop_saxophone01`] = {
+	[`rpemotes_prop_Saxophone01`] = {
 		label = "Saxophone",
 		filter = false,
 	},
-	[`rpemotes_prop_saxophone02`] = {
+	[`rpemotes_prop_Saxophone02`] = {
 		label = "Saxophone",
 		filter = false,
 	},
@@ -516,12 +519,60 @@ Config.models = {
 		label = "Digiscanner",
 		renderTarget = "digiscanner"
 	},
+	[`prop_phone_taymckenzienz`] = {
+		label = "Cellphone",
+		renderTarget = "npcphone"
+	},
 	[`prop_phone_cs_frank`] = {
-		label = "Phone",
+		label = "Cellphone",
 		renderTarget = "npcphone"
 	},
 	[`prop_phone_proto`] = {
-		label = "Phone",
+		label = "Cellphone",
+		renderTarget = "npcphone"
+	},
+	[`prop_player_phone_01`] = {
+		label = "Cellphone",
+		renderTarget = "npcphone"
+	},
+	[`sf_prop_sf_npc_phone_01a`] = {
+		label = "Cellphone",
+		renderTarget = "npcphone"
+	},
+	[`p_amb_phone_01`] = {
+		label = "Cellphone",
+		renderTarget = "npcphone"
+	},
+	[`h4_prop_h4_npc_phone`] = {
+		label = "Cellphone",
+		renderTarget = "npcphone"
+	},
+	[`prop_phone_ing_02`] = {
+		label = "phone",
+		renderTarget = "npcphone"
+	},
+	[`ch_prop_ch_phone_ing_02a`] = {
+		label = "Cellphone",
+		renderTarget = "npcphone"
+	},
+	[`ch_prop_ch_phone_ing_02a`] = {
+		label = "Cellphone",
+		renderTarget = "npcphone"
+	},
+	[`prop_phone_ing`] = {
+		label = "Cellphone",
+		renderTarget = "npcphone"
+	},
+	[`ba_prop_battle_amb_phone`] = {
+		label = "Cellphone",
+		renderTarget = "npcphone"
+	},
+	[`prop_npc_phone_02`] = {
+		label = "Cellphone",
+		renderTarget = "npcphone"
+	},
+	[`p_cs_cam_phone`] = {
+		label = "Cellphone",
 		renderTarget = "npcphone"
 	},
 	[`prop_huge_display_01`] = {

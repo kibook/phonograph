@@ -861,5 +861,8 @@ StaticEmitters = {
 {name = "se_m23_2_dlc_int_salvage_radioemitter_shop_floor_03", enabled = true},
 {name = "dlc_23_2_casino_floor_muffled_emitter_01", enabled = true},
 {name = "dlc_23_2_casino_floor_muffled_emitter_01", enabled = true},
+{name = "dlc_mp2024_01_bountyhunter_01", enabled = true},
+{name = "dlc_mp2024_01_bountyhunter_cell", enabled = true},
+{name = "dlc_mp2024_01_bountyhunter_02", enabled = true},
 
 }

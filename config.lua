@@ -308,8 +308,12 @@ Config.models = {
 		renderTarget = "tvscreen"
 	},
 	[`ba_prop_battle_club_computer_01`] = {
-		label = "Computer",
+		label = "iFruit Computer",
 		renderTarget = "club_computer"
+	},
+	[`ba_prop_battle_club_computer_02`] = {
+		label = "iFruit Computer",
+		renderTarget = "club_computer_02"
 	},
 	[`ba_prop_club_laptop_dj`] = {
 		label = "Laptop",
@@ -319,9 +323,45 @@ Config.models = {
 		label = "Laptop",
 		renderTarget = "laptop_dj_02"
 	},
-	[`sm_prop_smug_monitor_01`] = {
+	[`v_res_lest_monitor`] = {
 		label = "Computer",
+		renderTarget = "tvscreen"
+	},
+	[`tr_prop_tr_monitor_01a`] = {
+		label = "Computer",
+		renderTarget = "prop_tr_monitor_01a"
+	},
+	[`tr_prop_tr_monitor_01b`] = {
+		label = "Computer",
+		renderTarget = "prop_tr_monitor_01b"
+	},
+	[`sm_prop_smug_monitor_01`] = {
+		label = "iFruit Computer",
 		renderTarget = "smug_monitor_01"
+	},
+	[`sf_prop_sf_monitor_stu_01a`] = {
+		label = "Computer",
+		renderTarget = "monitor_stu_01a"
+	},
+	[`prop_monitor_01b`] = {
+		label = "Computer",
+		renderTarget = "tvscreen"
+	},
+	[`sf_prop_sf_monitor_stu_01a`] = {
+		label = "Computer",
+		renderTarget = "monitor_stu_01a"
+	},
+	[`sf_prop_sf_monitor_b_02b`] = {
+		label = "iFruit Computer",
+		renderTarget = "monitor_b_02b"
+	},
+	[`vw_prop_vw_monitor_01`] = {
+		label = "iFruit Computer",
+		renderTarget = "prop_ex_computer_screen"
+	},
+	[`m24_1_prop_m41_monitor_01a`] = {
+		label = "iFruit Computer",
+		renderTarget = "prop_m41_monitor_01a"
 	},
 	[`xm_prop_x17_tv_flat_01`] = {
 		label = "TV",
@@ -614,10 +654,6 @@ Config.models = {
 	[`hei_bank_heist_laptop`] = {
 		label = "Laptop",
 		renderTarget = "tvscreen"
-	},
-	[`xm_prop_x17dlc_monitor_wall_01a`] = {
-		label = "Screen",
-		renderTarget = "prop_x17dlc_monitor_wall_01a"
 	},
 	[`ch_prop_ch_tv_rt_01a`] = {
 		label = "TV",

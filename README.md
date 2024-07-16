@@ -11,6 +11,8 @@
     <a href="https://github.com/TayMcKenzieNZ/pmms/graphs/contributors"><img src="https://img.shields.io/github/contributors/TayMcKenzieNZ/pmms.svg?style=social&label=Contributors"></a>
 </p>
 
+<h1 align="center">Compatible with Gamebuild 3258 / Bottom Dollar Bounties DLC</h1>
+
 
 
 # Features

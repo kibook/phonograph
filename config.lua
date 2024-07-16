@@ -728,6 +728,42 @@ Config.models = {
 		attenuation = {sameRoom = 0.6, diffRoom = 6},
 		range = 150,
 		isVehicle = false
+	}, 
+	
+	---- BzZzi's Add - On Bzoombox Props ---- 
+	--- Purchase here: https://bzzz.tebex.io/package/6252902 ----
+  
+	[`bzzz_bzoombox_a`] = {
+		label = "BzZzi Bzoombox",
+		filter = false,
+	},
+	[`bzzz_bzoombox_b`] = {
+		label = "BzZzi Bzoombox 2",
+		filter = false,
+	},
+	[`bzzz_bzoombox_c`] = {
+		label = "BzZz Bzoombox Personal Assistant",
+		filter = false,
+	},
+	[`bzzz_bzoombox_d`] = {
+		label = "BzZz Bzoombox Personal Assistant 2",
+		filter = false,
+	},
+	[`bzzz_bzoombox_e`] = {
+		label = "BzZz Bzoombox 3",
+		filter = false,
+	},
+	[`bzzz_bzoombox_f`] = {
+		label = "BzZz Bzoombox 4",
+		filter = false,
+	},
+	[`bzzz_bzoombox_g`] = {
+		label = "BzZz Bzoombox 4",
+		filter = false,
+	},
+	[`bzzz_bzoombox_h`] = {
+		label = "BzZz Bzoombox Speakers",
+		filter = false,
 	},
 }
 

@@ -30,6 +30,8 @@ Config.defaultVideoSize = 30
 -- ox_target 
 Config.ox_target = GetResourceState("ox_target") ~= "missing"
 
+Config.interactRange = 4.0
+
 -- Entity models that media can be played on.
 --
 -- Optional properties:

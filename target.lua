@@ -7,9 +7,9 @@ if Config.ox_target then
 
     exports.ox_target:addModel(tableModel,{
         icon = "fa-solid fa-radio",
-        label = "Ouvrir la radio/tv",
+        label = "Open pmms",
         canInteract  = function (entity,distance)
-            if distance < 4.0 then
+            if distance < Config.interactRange then
                 return true
             end
             return false

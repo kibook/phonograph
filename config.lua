@@ -27,6 +27,9 @@ Config.enableFilterByDefault = Config.isRDR
 -- Default size for the NUI video screen
 Config.defaultVideoSize = 30
 
+-- ox_target 
+Config.ox_target = GetResourceState("ox_target") ~= "missing"
+
 -- Entity models that media can be played on.
 --
 -- Optional properties:

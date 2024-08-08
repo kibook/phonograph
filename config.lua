@@ -27,6 +27,11 @@ Config.enableFilterByDefault = Config.isRDR
 -- Default size for the NUI video screen
 Config.defaultVideoSize = 30
 
+-- ox_target 
+Config.ox_target = GetResourceState("ox_target") ~= "missing"
+
+Config.interactRange = 4.0
+
 -- Entity models that media can be played on.
 --
 -- Optional properties:
@@ -339,10 +344,6 @@ Config.models = {
 		label = "iFruit Computer",
 		renderTarget = "smug_monitor_01"
 	},
-	[`sf_prop_sf_monitor_stu_01a`] = {
-		label = "Computer",
-		renderTarget = "monitor_stu_01a"
-	},
 	[`prop_monitor_01b`] = {
 		label = "Computer",
 		renderTarget = "tvscreen"
@@ -531,10 +532,6 @@ Config.models = {
 		label = "Hack Device",
 		renderTarget = "w_am_hackdevice_m32"
 	},
-	[`m23_2_prop_m32_hackdevice_01a`] = {
-		label = "Hack Device",
-		renderTarget = "w_am_hackdevice_m32"
-	},
 	[`hei_prop_dlc_heist_board`] = {
 		label = "Projector",
 		renderTarget = "heist_brd"
@@ -589,10 +586,6 @@ Config.models = {
 	},
 	[`prop_phone_ing_02`] = {
 		label = "phone",
-		renderTarget = "npcphone"
-	},
-	[`ch_prop_ch_phone_ing_02a`] = {
-		label = "Cellphone",
 		renderTarget = "npcphone"
 	},
 	[`ch_prop_ch_phone_ing_02a`] = {
@@ -950,7 +943,7 @@ Config.dui.urls = {}
 -- 		Clone https://github.com/kibook/pmms-dui and install on your
 -- 		web server.
 --
-Config.dui.urls.https = "https://kibook.github.io/pmms-dui"
+Config.dui.urls.https = "https://enzo2991.github.io/pmms-dui/"
 
 -- The URL of the DUI page used for HTTP links. If left unset, the internal DUI page is used.
 --Config.dui.urls.http = ""

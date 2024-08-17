@@ -4,16 +4,16 @@ Config = {}
 Config.isRDR = IsDuplicityVersion() and GetConvar("gamename", "gta5") == "rdr3" or not TerraingridActivate
 
 -- Max distance at which inactive media player entities appear
-Config.maxDiscoveryDistance = 30.0
+Config.maxDiscoveryDistance = 400.0
 
 -- Default sound attenuation multiplier when in the same room
-Config.defaultSameRoomAttenuation = 4.0
+Config.defaultSameRoomAttenuation = 0.0
 
 -- Default sound attenuation multiplier when in a different room
-Config.defaultDiffRoomAttenuation = 6.0
+Config.defaultDiffRoomAttenuation = 4.0
 
 -- Default range where active media players are visible/audible
-Config.defaultRange = 30.0
+Config.defaultRange = 80.0
 
 -- Maximum range that players can set
 Config.maxRange = 200.0
@@ -26,6 +26,11 @@ Config.enableFilterByDefault = Config.isRDR
 
 -- Default size for the NUI video screen
 Config.defaultVideoSize = 30
+
+-- ox_target 
+Config.ox_target = GetResourceState("ox_target") ~= "missing"
+
+Config.interactRange = 4.0
 
 -- Entity models that media can be played on.
 --
@@ -67,28 +72,36 @@ Config.defaultVideoSize = 30
 --
 Config.models = {
 	[`p_phonograph01x`]  = {
-		label = "Phonograph"
+		label = "Phonograph",
+		filter = true,
 	},
 	[`prop_radio_01`] = {
-		label = "Radio"
+		label = "Radio",
+		filter = true,
 	},
 	[`prop_boombox_01`] = {
-		label = "Boombox"
+		label = "Boombox",
+		filter = false,
+	},
+	[`xm3_prop_xm3_boombox_01a`] = {
+		label = "Boombox",
+		filter = false,
+	},
+	[`v_ind_cs_hifi`] = {
+		label = "Stereo",
+		filter = false,
 	},
 	[`prop_portable_hifi_01`] = {
-		label = "Boombox"
-	},
-	[`prop_ghettoblast_01`] = {
-		label = "Boombox"
-	},
-	[`prop_ghettoblast_02`] = {
-		label = "Boombox"
+		label = "Stereo",
+		filter = false,
 	},
 	[`prop_tapeplayer_01`] = {
-		label = "Tape Player"
+		label = "Tape Player",
+		filter = true,
 	},
 	[`bkr_prop_clubhouse_jukebox_01a`] = {
-		label = "Jukebox"
+		label = "Jukebox",
+		filter = false,
 	},
 	[`bkr_prop_clubhouse_jukebox_01b`] = {
 		label = "Jukebox"
@@ -114,11 +127,74 @@ Config.models = {
 	[`prop_mp3_dock`] = {
 		label = "MP3 Dock"
 	},
+	[`m24_1_prop_m41_radio_01a`] = {
+		label = "MP3 Dock"
+	},
 	[`v_res_mm_audio`] = {
 		label = "MP3 Dock"
 	},
 	[`sm_prop_smug_radio_01`] = {
 		label = "Radio"
+	},
+	[`prop_tay_guitar_001`] = {
+		label = "Accoustic Guitar Pink",
+		filter = true,
+	},
+	[`prop_tay_guitar_002`] = {
+		label = "Accoustic Guitar Pride",
+		filter = true,
+	},
+	[`prop_acc_guitar_01`] = {
+		label = "Accoustic Guitar",
+		filter = true,
+	},
+	[`prop_acc_guitar_01_d1`] = {
+		label = "Accoustic Guitar",
+		filter = true,
+	},
+	[`sf_prop_sf_acc_guitar_01a`] = {
+		label = "Accoustic Guitar",
+		filter = true,
+	},
+	[`prop_el_guitar_01`] = {
+		label = "Electric Guitar",
+		filter = false,
+	},
+	[`prop_el_guitar_02`] = {
+		label = "Electric Guitar",
+		filter = false,
+	},
+	[`prop_el_guitar_03`] = {
+		label = "Electric Guitar",
+		filter = false,
+	},
+	[`vw_prop_casino_art_guitar_01a`] = {
+		label = "Electric Guitar",
+		filter = false,
+	},
+	[`bkr_int_02_elec_guitar`] = {
+		label = "Electric Guitar",
+		filter = false,
+	},
+	[`sf_prop_sf_el_guitar_01a`] = {
+		label = "Electric Guitar",
+		filter = false,
+	},
+	[`sf_prop_sf_el_guitar_02a`] = {
+		label = "Electric Guitar",
+		filter = false,
+	},
+	[`sf_prop_sf_el_guitar_03a`] = {
+		label = "Electric Guitar",
+		filter = false,
+	},
+	[`rpemotes_prop_Saxophone01`] = {
+		label = "Saxophone",
+		filter = false,
+	},
+	[`rpemotes_prop_Saxophone02`] = {
+		label = "Saxophone",
+		filter = false,
 	},
 	[`ex_prop_ex_tv_flat_01`] = {
 		label = "TV",
@@ -152,6 +228,14 @@ Config.models = {
 		label = "Monitor",
 		renderTarget = "tvscreen"
 	},
+	[`m23_2_prop_m32_crt_mon_01a`] = {
+		label = "Monitor",
+		renderTarget = "m32_crtscreen_01a"
+	},
+	[`m23_2_prop_m32_desktop_01a`] = {
+		label = "Monitor",
+		renderTarget = "m32_desktop_01a"
+	},
 	[`hei_prop_dlc_tablet`] = {
 		label = "Tablet",
 		renderTarget = "tablet"
@@ -171,6 +255,26 @@ Config.models = {
 	[`prop_tv_03_overlay`] = {
 		label = "TV",
 		renderTarget = "tvscreen"
+	},
+	[`prop_tv_04`] = {
+		label = "TV",
+		renderTarget = "tvscreen"
+	},
+	[`prop_tv_test`] = {
+		label = "TV",
+		renderTarget = "tvscreen"
+	},
+	[`prop_tv_05`] = {
+		label = "TV",
+		renderTarget = "tvscreen"
+	},
+	[`prop_tv_06`] = {
+		label = "TV",
+		renderTarget = "tvscreen"
+	},
+	[`prop_tv_07`] = {
+		label = "TV",
+		renderTarget = "tv_screen_02b"
 	},
 	[`prop_laptop_lester2`] = {
 		label = "Laptop",
@@ -209,8 +313,12 @@ Config.models = {
 		renderTarget = "tvscreen"
 	},
 	[`ba_prop_battle_club_computer_01`] = {
-		label = "Computer",
+		label = "iFruit Computer",
 		renderTarget = "club_computer"
+	},
+	[`ba_prop_battle_club_computer_02`] = {
+		label = "iFruit Computer",
+		renderTarget = "club_computer_02"
 	},
 	[`ba_prop_club_laptop_dj`] = {
 		label = "Laptop",
@@ -220,9 +328,41 @@ Config.models = {
 		label = "Laptop",
 		renderTarget = "laptop_dj_02"
 	},
-	[`sm_prop_smug_monitor_01`] = {
+	[`v_res_lest_monitor`] = {
 		label = "Computer",
+		renderTarget = "tvscreen"
+	},
+	[`tr_prop_tr_monitor_01a`] = {
+		label = "Computer",
+		renderTarget = "prop_tr_monitor_01a"
+	},
+	[`tr_prop_tr_monitor_01b`] = {
+		label = "Computer",
+		renderTarget = "prop_tr_monitor_01b"
+	},
+	[`sm_prop_smug_monitor_01`] = {
+		label = "iFruit Computer",
 		renderTarget = "smug_monitor_01"
+	},
+	[`prop_monitor_01b`] = {
+		label = "Computer",
+		renderTarget = "tvscreen"
+	},
+	[`sf_prop_sf_monitor_stu_01a`] = {
+		label = "Computer",
+		renderTarget = "monitor_stu_01a"
+	},
+	[`sf_prop_sf_monitor_b_02b`] = {
+		label = "iFruit Computer",
+		renderTarget = "monitor_b_02b"
+	},
+	[`vw_prop_vw_monitor_01`] = {
+		label = "iFruit Computer",
+		renderTarget = "prop_ex_computer_screen"
+	},
+	[`m24_1_prop_m41_monitor_01a`] = {
+		label = "iFruit Computer",
+		renderTarget = "prop_m41_monitor_01a"
 	},
 	[`xm_prop_x17_tv_flat_01`] = {
 		label = "TV",
@@ -388,6 +528,10 @@ Config.models = {
 		label = "TV",
 		renderTarget = "gr_trailertv_02"
 	},
+	[`m23_2_prop_m32_hackdevice_01a`] = {
+		label = "Hack Device",
+		renderTarget = "w_am_hackdevice_m32"
+	},
 	[`hei_prop_dlc_heist_board`] = {
 		label = "Projector",
 		renderTarget = "heist_brd"
@@ -412,12 +556,56 @@ Config.models = {
 		label = "Digiscanner",
 		renderTarget = "digiscanner"
 	},
+	[`prop_phone_taymckenzienz`] = {
+		label = "Cellphone",
+		renderTarget = "npcphone"
+	},
 	[`prop_phone_cs_frank`] = {
-		label = "Phone",
+		label = "Cellphone",
 		renderTarget = "npcphone"
 	},
 	[`prop_phone_proto`] = {
-		label = "Phone",
+		label = "Cellphone",
+		renderTarget = "npcphone"
+	},
+	[`prop_player_phone_01`] = {
+		label = "Cellphone",
+		renderTarget = "npcphone"
+	},
+	[`sf_prop_sf_npc_phone_01a`] = {
+		label = "Cellphone",
+		renderTarget = "npcphone"
+	},
+	[`p_amb_phone_01`] = {
+		label = "Cellphone",
+		renderTarget = "npcphone"
+	},
+	[`h4_prop_h4_npc_phone`] = {
+		label = "Cellphone",
+		renderTarget = "npcphone"
+	},
+	[`prop_phone_ing_02`] = {
+		label = "phone",
+		renderTarget = "npcphone"
+	},
+	[`ch_prop_ch_phone_ing_02a`] = {
+		label = "Cellphone",
+		renderTarget = "npcphone"
+	},
+	[`prop_phone_ing`] = {
+		label = "Cellphone",
+		renderTarget = "npcphone"
+	},
+	[`ba_prop_battle_amb_phone`] = {
+		label = "Cellphone",
+		renderTarget = "npcphone"
+	},
+	[`prop_npc_phone_02`] = {
+		label = "Cellphone",
+		renderTarget = "npcphone"
+	},
+	[`p_cs_cam_phone`] = {
+		label = "Cellphone",
 		renderTarget = "npcphone"
 	},
 	[`prop_huge_display_01`] = {
@@ -459,10 +647,6 @@ Config.models = {
 	[`hei_bank_heist_laptop`] = {
 		label = "Laptop",
 		renderTarget = "tvscreen"
-	},
-	[`xm_prop_x17dlc_monitor_wall_01a`] = {
-		label = "Screen",
-		renderTarget = "prop_x17dlc_monitor_wall_01a"
 	},
 	[`ch_prop_ch_tv_rt_01a`] = {
 		label = "TV",
@@ -537,6 +721,42 @@ Config.models = {
 		attenuation = {sameRoom = 0.6, diffRoom = 6},
 		range = 150,
 		isVehicle = false
+	}, 
+	
+	---- BzZzi's Add - On Bzoombox Props ---- 
+	--- Purchase here: https://bzzz.tebex.io/package/6252902 ----
+  
+	[`bzzz_bzoombox_a`] = {
+		label = "BzZzi Bzoombox",
+		filter = false,
+	},
+	[`bzzz_bzoombox_b`] = {
+		label = "BzZzi Bzoombox 2",
+		filter = false,
+	},
+	[`bzzz_bzoombox_c`] = {
+		label = "BzZz Bzoombox Personal Assistant",
+		filter = false,
+	},
+	[`bzzz_bzoombox_d`] = {
+		label = "BzZz Bzoombox Personal Assistant 2",
+		filter = false,
+	},
+	[`bzzz_bzoombox_e`] = {
+		label = "BzZz Bzoombox 3",
+		filter = false,
+	},
+	[`bzzz_bzoombox_f`] = {
+		label = "BzZz Bzoombox 4",
+		filter = false,
+	},
+	[`bzzz_bzoombox_g`] = {
+		label = "BzZz Bzoombox 4",
+		filter = false,
+	},
+	[`bzzz_bzoombox_h`] = {
+		label = "BzZz Bzoombox Speakers",
+		filter = false,
 	},
 }
 
@@ -563,7 +783,7 @@ Config.defaultModel = Config.isRDR and `p_phonograph01x` or `prop_boombox_01`
 -- 	above the entity.
 --
 Config.presets = {
-	--['1'] = {url = 'https://example.com/example.ogg', title = 'Example Preset', filter = true, video = false}
+	['1'] = {url = 'https://live.upbeat.pw//example.ogg', title = 'UpBeat Radio Livestream', filter = false, video = false}
 }
 
 -- These media player entities will be automatically spawned (if they do not
@@ -723,7 +943,7 @@ Config.dui.urls = {}
 -- 		Clone https://github.com/kibook/pmms-dui and install on your
 -- 		web server.
 --
-Config.dui.urls.https = "https://kibook.github.io/pmms-dui"
+Config.dui.urls.https = "https://kibook.github.io/pmms-dui/"
 
 -- The URL of the DUI page used for HTTP links. If left unset, the internal DUI page is used.
 --Config.dui.urls.http = ""
@@ -770,25 +990,30 @@ Config.audioVisualizations = {
 		name = "Blocky Bars"
 	},
 	["cubes"] = {
-		name = "Cubes"
+		name = "Cubes",
+		colors = {"orange", "aqua", "blue", "purple"} -- Order bottom to top. Maximum 4 Colours 
 	},
 	["dualbars"] = {
-		name = "Dual Bars"
+		name = "Dual Bars",
+		colors = {"#ee188c", "#176bed", "#16ec6d", "#5ffd1e", "#dcaa0a"} -- 5 Colours diffRoom, Left To Right
 	},
 	["dualbars blocks"] = {
 		name = "Blocky Dual Bars"
 	},
 	["fireworks"] = {
-		name = "Fireworks"
+		name = "Fireworks",
+		colors = {"#ee188c"} -- Maximum 1 Colour 
 	},
 	["flower"] = {
-		name = "Flower"
+		name = "Flower",
+		colors = {"#ee188c", "#176bed", "#16ec6d", "#5ffd1e", "#dcaa0a"} -- 5 Colours diffRoom, Left To Right
 	},
 	["flower blocks"] = {
 		name = "Blocky Flower"
 	},
 	["orbs"] = {
-		name = "Orbs"
+		name = "Orbs",
+		colors = {"#ee188c","#7611f7"} -- diffRoom 2 Colours 
 	},
 	["ring"] = {
 		name = "Ring"
@@ -803,7 +1028,8 @@ Config.audioVisualizations = {
 		name = "Shine"
 	},
 	["shine rings"] = {
-		name = "Shine Rings"
+		name = "Shine Rings",
+		colors = {"#ee188c", "#176bed", "#16ec6d", "#5ffd1e", "#dcaa0a"}
 	},
 	["shockwave"] = {
 		name = "Shockwave"
@@ -850,5 +1076,6 @@ Config.autoDisableVehicleRadio = true
 Config.allowedUrls = {
 	"^https?://w?w?w?%.?youtube.com/.*$",
 	"^https?://w?w?w?%.?youtu.be/.*$",
-	"^https?://w?w?w?%.?twitch.tv/.*$"
+	"^https?://w?w?w?%.?twitch.tv/.*$",
+    "^https?://w?w?w?%.?kick.com/.*$"
 }

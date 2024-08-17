@@ -1,6 +1,19 @@
-# pmms - FiveM/RedM synchronized media player
+<h1 align="center">pmms - FiveM / RedM synchronized media player</h1>
 
-pmms (Poodle's MultiMedia System) allows players to play music/video from entities such as phonographs, radios or TVs.
+<p align="center">
+  <b>pmms (Poodle's MultiMedia System) allows players to play music / video from entities such as phonographs, radios, or TVs.</b>
+</p>
+
+<p align="center">
+    <img src="https://img.shields.io/badge/license-GPL--3.0-blue.svg" alt="License">
+    <a href="https://github.com/TayMcKenzieNZ/pmms/stargazers"><img src="https://img.shields.io/github/stars/TayMcKenzieNZ/pmms.svg?style=social" alt="Star"></a>
+    <a href="https://github.com/TayMcKenzieNZ/pmms/network/members"><img src="https://img.shields.io/github/forks/TayMcKenzieNZ/pmms.svg?style=social&label=Forks"></a>
+    <a href="https://github.com/TayMcKenzieNZ/pmms/graphs/contributors"><img src="https://img.shields.io/github/contributors/TayMcKenzieNZ/pmms.svg?style=social&label=Contributors"></a>
+</p>
+
+<h1 align="center">Compatible with Gamebuild 3258 / Bottom Dollar Bounties DLC</h1>
+
+
 
 # Features
 
@@ -22,7 +35,9 @@ pmms (Poodle's MultiMedia System) allows players to play music/video from entiti
 
 - Configure default entities which are spawned and play music/video automatically.
 
-- Audio visualizations via [Wave.js](https://foobar404.github.io/Wave.js/#/).
+- Audio visualizations via [Wave.js](https://foobar404.dev/wave.js/).
+
+- Mute static emitters while playing music / videos (FiveM)
 
 # Examples
 
